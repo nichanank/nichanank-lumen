@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'NK',
+  subtitle: 'A journal on life, work, and everyday curiosities.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,19 +25,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Nichanan Kesonpat',
     photo: '/photo.jpg',
     bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
-      email: '',
+      email: 'nich@nichanank.com',
       facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      telegram: 'nichanank',
+      twitter: 'nichanank',
+      github: 'nichanank',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'nichanank',
+      instagram: 'nichanank',
       line: '',
       gitlab: '',
       weibo: ''
