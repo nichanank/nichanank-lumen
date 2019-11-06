@@ -8,7 +8,9 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Bitcoin"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "Our bitcoin transaction ledger now contains 512200+ (at the time of writing) immutable pages of history detailing nothing except who sent how much BTC to whom...
+
+But what exactly happens during each transaction? What are public and private keys and why is it such a big deal to keep the latter a secret? What's in a wallet? What does it mean to verify or "sign" a message in this context? In this post I will walk through what happens when you send and receive bitcoin and what it means to "own" cryptocurrencies."
 socialImage: "/media/image-2.jpg"
 ---
 

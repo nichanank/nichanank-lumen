@@ -8,7 +8,7 @@ category: "Programming"
 tags:
   - "Ruby on Rails"
   - "Vinyl"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "A few weeks ago I decided it was time to revive a hobby I had begun to pursue in college: computer programming. I enrolled in a Data Structures & Algorithms course during my final semester in an attempt to fight off senioritis - and despite the allnighters spent debugging and balancing red-black trees, this decision ended up being one of the best I made at Cal...."
 socialImage: "/media/image-2.jpg"
 ---
 

@@ -8,7 +8,9 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Ethereum"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "If you've scoured around for some information on blockchain technology, you are likely to have come across the name Ethereum. Like the experience of reading about Bitcoin for the first time, the abundance of technical terms and novel concepts may have left you more confused than when you first started reading. With this post, I aim to give a gentle introduction to the fundamental ideas behind Ethereum, explain what "smart contracts" are, and what we could potentially achieve with the technology...
+
+"
 socialImage: "/media/image-2.jpg"
 ---
 

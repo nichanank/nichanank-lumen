@@ -7,7 +7,7 @@ slug: "/posts/six-months-in-thailand-a-recap-and-retrospective/"
 category: "Life"
 tags:
   - Thailand
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "Since my move to Thailand, everything has been moving full speed ahead - so much so that I have neglected on a reflective post until now. The central theme has been self-adjustment (still ongoing), blockchain, writing, and my job. So, some thoughts on these time occupiers of mine over the past few months..."
 socialImage: "/media/image-2.jpg"
 ---
 

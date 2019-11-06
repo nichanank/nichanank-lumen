@@ -7,7 +7,7 @@ slug: "/posts/consensus-algorithms-pos-dpos/"
 category: "Technology"
 tags:
   - "Blockchain"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "A continuation of my post on consensus protocols and proof-of-work. This article gives an overview of cryptoeconomics, proof-of-stake, delegated proof-of-stake, and a discussion of tradeoffs amongst different consensus algorithms. "
 socialImage: "/media/image-2.jpg"
 ---
 

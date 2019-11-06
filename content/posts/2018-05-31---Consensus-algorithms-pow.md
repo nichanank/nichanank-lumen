@@ -8,7 +8,7 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Bitcoin"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "Because the blockchain is decentralized and transaction data is distributed between nodes, there must be a way for the nodes to sync and agree on what transactions have already occurred. In other words, they have to be in consensus about what the blockchain looks like. This is is the first of a multi-part post on different consensus protocols: it discusses proof of work, Byzantine Fault Tolerance, mining, energy consumption, and scaling."
 socialImage: "/media/image-2.jpg"
 ---
 

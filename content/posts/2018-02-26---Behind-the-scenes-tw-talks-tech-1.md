@@ -9,7 +9,7 @@ tags:
   - "Experiences"
   - "Thailand"
   - "Work"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "We take time out of our busy lives to attend things and often forget to evaluate whether or not the returns from our being there justify the investment of that time and effort. I've been to whole-day conferences where there was no information about where everything was at the venue, sessions strayed off the agenda, speakers came unprepared... and on the other hand I've also been to conferences that were easy to navigate, and every session had some gem to write home about. What did the organizers do differently that led to these different outcomes? My experiences and learnings from helping to put on ThoughtWorks first tech talk event of 2018 in Thailand."
 socialImage: "/media/image-2.jpg"
 ---
 

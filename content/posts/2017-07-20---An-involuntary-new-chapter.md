@@ -8,7 +8,8 @@ category: "Life"
 tags:
   - "Life"
   - "Thailand"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "Last Spring, I crossed the threshold into adulthood and graduated with an exciting job offer in hand. Like many Bay Area graduates, I was about to enter the weird and wonderful world of tech startups. I joined the talent acquisition team at Instacart and was immediately immersed in the fast-paced and innovative environment that is unique to this scene.
+In the months that followed, I..."
 socialImage: "/media/image-2.jpg"
 ---
 

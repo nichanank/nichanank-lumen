@@ -8,7 +8,7 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Scalability"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "As a follow on to my previous post on scalability and sidechains I thought it would make sense to give state channels a closer look. This article introduces some core ideas and features of state channels, explores current techniques for generalized state channels, and current challenges and limitations. By the end, you’ll hopefully have a better understanding of state channels and the implications of having a generalized framework for them."
 socialImage: "/media/image-2.jpg"
 ---
 

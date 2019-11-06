@@ -8,7 +8,8 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Bitcoin"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "I first came across Bitcoin a few years ago as it gained wider traction across online forums and social media. Initially, I dismissed it as a form of digital money that ran on the same technology on which our traditional online banking systems rely.
+I eventually gave in to an ever-increasing sense of FOMO as Bitcoin became enthusiastically discussed amongst friends and colleagues, as well as on my favourite podcasts. I decided to do my own research on the topic, making an effort to understand its fundamentals and why it has a potential to affect billions of lives. As a result..."
 socialImage: "/media/image-2.jpg"
 ---
 

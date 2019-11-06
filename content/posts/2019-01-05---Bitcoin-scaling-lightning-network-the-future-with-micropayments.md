@@ -9,7 +9,7 @@ tags:
   - "Blockchain"
   - "Scalability"
   - "Bitcoin"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+description: "The Lightning Network is a network of payment channels that was originally built on top of Bitcoin and has since extended to other blockchains. Individuals can open up peer-to-peer payment channels with one another and make many transactions without accruing the costs of on-chain fees whilst reaping the benefits of having a decentralized blockchain as an underlying layer of security. In this article we will explore how Lightning works, its use cases, and implications of the ability to do micropayments."
 socialImage: "/media/image-2.jpg"
 ---
 
