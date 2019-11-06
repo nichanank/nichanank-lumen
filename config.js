@@ -27,20 +27,14 @@ module.exports = {
   author: {
     name: 'Nichanan Kesonpat',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Exploring rabbit holes',
     contacts: {
-      email: 'nich@nichanank.com',
-      facebook: '#',
-      telegram: 'nichanank',
       twitter: 'nichanank',
       github: 'nichanank',
+      email: 'nich@nichanank.com',
       rss: '',
-      vkontakte: '',
       linkedin: 'nichanank',
       instagram: 'nichanank',
-      line: '',
-      gitlab: '',
-      weibo: ''
     }
   }
 };

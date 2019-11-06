@@ -11,12 +11,6 @@ const getIcon = (name: string) => {
     case 'github':
       icon = ICONS.GITHUB;
       break;
-    case 'vkontakte':
-      icon = ICONS.VKONTAKTE;
-      break;
-    case 'telegram':
-      icon = ICONS.TELEGRAM;
-      break;
     case 'email':
       icon = ICONS.EMAIL;
       break;
@@ -28,18 +22,6 @@ const getIcon = (name: string) => {
       break;
     case 'instagram':
       icon = ICONS.INSTAGRAM;
-      break;
-    case 'line':
-      icon = ICONS.LINE;
-      break;
-    case 'facebook':
-      icon = ICONS.FACEBOOK;
-      break;
-    case 'gitlab':
-      icon = ICONS.GITLAB;
-      break;
-    case 'weibo':
-      icon = ICONS.WEIBO;
       break;
     default:
       icon = {};
