@@ -16,7 +16,7 @@ A few weeks ago I decided it was time to revive a hobby I had begun to pursue in
 
 The course is one of the prerequisites for CS majors, taught in Java. We built a [text editor](http://datastructur.es/sp16/materials/proj/proj2/proj2.html) from scratch, as well as a Google Maps [clone](http://datastructur.es/sp16/materials/proj/proj3/proj3.html) of Berkeley that gives you the shortest path between two points using the [A* search](https://en.wikipedia.org/wiki/A*_search_algorithm) algorithm. The projects were challenging, but they opened my eyes to the joys of programming beyond the theory. Although I didn't take these projects as far as I would have liked due to other obligations and priorities I had at the time, I came away knowing that I would be writing code again in one way or another.
 
-![Shortest path from the library to Kip's bar (as you do) using A* search. The background photo for the post title is code from this project - aptly named BearMaps](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1510511705558-HZHW36ULGFJLQMNNU5CJ/ke17ZwdGBToddI8pDm48kB8QVnDCEHqHqQSzd4Lmmr17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k6hc73dCNVBgUhRvNqFcN1nhvHyLTvAIG9KOqjcyurRH_IztENQwT_i1M6gYsPQHg/Screen+Shot+2017-11-13+at+1.33.38+AM.png?format=1500w)
+![Shortest path from the library to Kip's bar (as you do) using A* search. The background photo for the post title is code from this project - aptly named BearMaps](/static/media/bearmaps.png)
 
 Shortest path from the library to Kip's bar (as you do) using A* search. The background photo for the post title is code from this project - aptly named BearMaps
 
@@ -31,7 +31,7 @@ I'm not sure how many of you have had the experience of writing code and then se
 
 **For those unfamiliar with recruiting terms, [sourcing](https://www.hellotalent.com/blog/what-does-a-talent-sourcer-actually-do/) involves proactively identifying and reaching out to prospects that look like a good fit, as opposed to interviewing and closing candidates.*
 
-![Pokedex app that displays pokemon details when you click on their icon, also has search functionality. Written in Swift 3 -  code](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1510510843051-QR24AIM7R673UV5J6PR3/ke17ZwdGBToddI8pDm48kBVxyjRi1K3b0_68KtJRnCRZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVGTfHFUEvM4CD6-cmk1AonyocUEYzxsc-_bZiatt4VN4aEcAfnVBrEqrgp1UxUHGkY/Screen+Shot+2017-11-13+at+1.18.07+AM.png?format=750w)
+![Pokedex app that displays pokemon details when you click on their icon, also has search functionality. Written in Swift 3 -  code](/static/media/pokedex.png)
 
 Pokedex app that displays pokemon details when you click on their icon, also has search functionality. Written in Swift 3 - [code](https://github.com/nichanank/pokedex-app)
 
@@ -46,7 +46,7 @@ The web applications realm seemed to make the most sense: learning resources are
 
 For the backend framework, I narrowed my options down to [Ruby on Rails](http://rubyonrails.org/) and [NodeJS](https://nodejs.org/en/). While neither are perfect and one may perform better than the other depending on what kind of app you're building, I have decided to start with RoR due to its allowance for rapid prototyping, robust conventions, and vibrant developer community. Ruby is a concise, expressive language that I find refreshing after having worked in Java. The RoR ecosystem also offers a wide array of open-sourced libraries ("[gems](https://rubygems.org/)") that I look forward to playing around with.
 
-![Some Ruby code on Cloud 9, a browser-based IDE.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1510589911044-YO8YJTTDSEGM03I5POV6/ke17ZwdGBToddI8pDm48kKSzZN-tF5G4dIliu3D3q7R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pqRZ-xQcWIwOn69OZqOg2kB2iVJ4RKsK5Qwdm8axQ599JE0Ad1-hBiBqrU6QS3MRg/Screen+Shot+2017-11-13+at+11.18.05+PM.png?format=1500w)
+![Some Ruby code on Cloud 9, a browser-based IDE.](/static/media/cloud9.png)
 
 Some Ruby code on Cloud 9, a browser-based IDE.
 
@@ -54,7 +54,7 @@ At the time of writing I have completed Rob Percival's introductory RoR [course
 
 On the frontend side of things, I have been interested in [React](https://reactjs.org/) for a while and hope to eventually incorporate this into my project as well. For now, the aforementioned projects utilize [embedded Ruby](https://en.wikipedia.org/wiki/ERuby) along with HTML and CSS.
 
-![HTML with embedded Ruby.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1510590354140-5XSRQYFXO60NG0AHH3FS/ke17ZwdGBToddI8pDm48kHIF8xHkcF4D1Oy2W1KY2pcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2diO3Esk0WtM7CTF2iNTta5CwYxR6IT6D47NGljC8TW6FCjLISwBs8eEdxAxTptZAUg/Screen+Shot+2017-11-13+at+11.24.38+PM.png?format=1500w)
+![HTML with embedded Ruby.](/static/media/embedded-ruby.png)
 
 HTML with embedded Ruby.
 

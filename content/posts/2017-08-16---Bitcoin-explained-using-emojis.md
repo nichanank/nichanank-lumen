@@ -185,15 +185,15 @@ Here, for a piece of data 𝑫 put into the function, the function will produce 
 
 Let's look at some:
 
-![A blank input produces a 64-character hash](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502526804102-5KPF7VIQ4UI8LYUSIQ9W/ke17ZwdGBToddI8pDm48kHEPCsLl0qYWsmFC21z16pAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7cISBG_7laDcDpM9JHU_-tI7E-zqxKuRxlSMARkqjwyO0e9gkaxXIdZzvHoTEQmn/empty+text+hash?format=1500w)
+![A blank input produces a 64-character hash](/static/media/empty-text-hash.png)
 
 A blank input produces a 64-character hash
 
-!["hello" has its 64-character hash](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502526908628-KXYH0WKNXGTYTN5CN915/ke17ZwdGBToddI8pDm48kE6mkkJCnQZeo3a9Sy_459IUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcBd3o_73FgfPlSgSxtUMAlQSu5hOJ3V5fYAV-zn4pnPJ4moJn1K80PKocHqmwPMTC/image-asset.png?format=1500w)
+!["hello" has its 64-character hash](/static/media/hello-hash.png)
 
 "hello" has its 64-character hash
 
-![Same word with the H capitalized produces a completely different hash.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502526977564-CEXN4TNQZEMM6CMQSJ2E/ke17ZwdGBToddI8pDm48kHEPCsLl0qYWsmFC21z16pAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7cISBG_7laDcDpM9JHU_-tI7E-zqxKuRxlSMARkqjwyO0e9gkaxXIdZzvHoTEQmn/image-asset.png?format=1500w)
+![Same word with the H capitalized produces a completely different hash.](/static/media/hello-capitalized-hash.png)
 
 Same word with the H capitalized produces a completely different hash.
 
@@ -209,7 +209,7 @@ Same word with the H capitalized produces a completely different hash.
 
 Let's look at a **block**
 
-![](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527069073-MO8K16WT9D7H35F3LB0I/ke17ZwdGBToddI8pDm48kFM7pth27QRUQ3jSy-EQ5RAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc97H9EAXvPMXZJoXFb2y0Nd2l9KPh81pE7kYmb--6MBA7ovngo1aK9YpLDCuMt8Hs/image-asset.png?format=1500w)
+![](/static/media/block.png)
 
 -   The **data** (input text) is empty
 
@@ -223,41 +223,41 @@ In the above example, the empty data gets put into the function. The function gi
 
 If I change the data in any way, the block is no longer valid (hash no longer begins with four zeros) and I have to find the 🔑nonce for the 🔒hash that was given by data "test".
 
-![The data has been changed and the hash no longer begins with 0000.. we need to find a nonce such that the hash is in the 0000.. format.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527227241-EPRROLIY8LU5SRRZZFXA/ke17ZwdGBToddI8pDm48kGTqJ1uPgIhOcQYrX5CIxuAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcNGz3HQ8Ff5luC-B1eM4dgLjidx3m-NoSQlLQv2PZmJ3WFR4xWpENZP0YpEuTUFvM/image-asset.png?format=1500w)
+![The data has been changed and the hash no longer begins with 0000.. we need to find a nonce such that the hash is in the 0000.. format.](/static/media/test-nonce-nonzero.png)
 
 The data has been changed and the hash no longer begins with 0000.. we need to find a nonce such that the hash is in the 0000.. format.
 
 I **mine** (try out) different passwords until I find the one that unlocks the block.
 
-![Looks like the password for "test" is  156384 .](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527321671-S88I70DQWIEP6UUGCBYM/ke17ZwdGBToddI8pDm48kMfcTlons8TpS56sO8HlAD8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKckOpj888Ka_qRM0zmH6fMcj1jdQquH6_UDk7fx5C25X1x-8SJ1abkaCs4fhzzi9q9/image-asset.png?format=1500w)
+![Looks like the password for "test" is  156384 .](/static/media/nonce-success.png)
 
 Looks like the password for "test" is *156384*.
 
 Now let's look at a series of blocks, a **blockchain**
 
-![Here, each block has a  previous  field, which is the  unlocked  hash (0000...) of the previous block.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527410846-20G2YCT9PDA35NIDREOI/ke17ZwdGBToddI8pDm48kKLyasoMe2WXk9oUWesopyUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcDcZm00HQKouD2d6Kb2Vxt8YzEvQtEx1Y1Jt1Q-4qTcn2bK7KMTbJTJhnKQxrSQ00/image-asset.png?format=1500w)
+![Here, each block has a  previous  field, which is the  unlocked  hash (0000...) of the previous block.](/static/media/blank-blockchain.png)
 
 Here, each block has a **previous** field, which is the *unlocked* hash (0000...) of the previous block.
 
 If I manipulate some data in the middle of the chain, all the blocks that follow becomes invalid and I have to *re-mine* (search for a new password) the block whose data I changed as well as the ones that follow.
 
-![](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527500002-BLG1SKG13A8DITTUHD1D/ke17ZwdGBToddI8pDm48kJAJYjRI77VYyMzVXIg2CBIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcY8ZqkqeMK6yi01Zd7DKmtAofHoESKCZpddK5bpG9QGSe5enC_85-P-TTxGMyILOW/image-asset.png?format=1500w)
+![](/static/media/test-blockchain-data-change.png)
 
 With Bitcoin's public ledger, we have blocks of transaction data instead of simple text:
 
-![In practice, instead of names or identifying information, we see  public keys  in the "To" and "From" fields. Public keys are like addresses of where the coins are stored and to be sent to.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527576480-9FPV5K2Z4YC0078T7R6P/ke17ZwdGBToddI8pDm48kHvA58JvQfOrF4NQ9jVxH3sUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcNh9XyLzV6GFtNciq7ceDNLBYnF3lcftewn0Q94zLlVMXxZ7_F1oKvHBDklhHA_o0/image-asset.png?format=1500w)
+![In practice, instead of names or identifying information, we see  public keys  in the "To" and "From" fields. Public keys are like addresses of where the coins are stored and to be sent to.](/static/media/blockchain-with-transactions.png)
 
 In practice, instead of names or identifying information, we see **public keys** in the "To" and "From" fields. Public keys are like addresses of where the coins are stored and to be sent to.
 
 Let's say someone tries to manipulate the ledger (e.g. give themselves 1000 Bitcoins). Here I changed the transaction from Charlotte to Elizabeth to be 10 instead of 6.42
 
-![A minor change in any of the fields (sender, recipient, amount) will result in the tampered block and all those that come after it to become invalid (hash no longer in the 0000.. format).](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502527870755-SNE79O6LGPW1Q3ZODI3I/ke17ZwdGBToddI8pDm48kNybVhjk2Ck4cSBlQu81GBUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcsQNo_MuSU5QVSu_K0mYM5OxZ0ZTfM60cSMz5dybd3lwYStplm9vASgG07yhcYGuH/image-asset.png?format=1500w)
+![A minor change in any of the fields (sender, recipient, amount) will result in the tampered block and all those that come after it to become invalid (hash no longer in the 0000.. format).](/static/media/blockchain-with-tx-manipulation.png)
 
 A minor change in any of the fields (sender, recipient, amount) will result in the tampered block and all those that come after it to become invalid (hash no longer in the 0000.. format).
 
 This is what happens after I re-mine all three blocks. Although they are all "valid", the hashes are drastically different from those in the untampered chain.
 
-![Transactions on the same block are considered to have occurred at the same time. The further back the block, the older the transaction.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502528088646-C483MT6D6VK6PB0TLV50/ke17ZwdGBToddI8pDm48kEGyklUPrWdFE7kkV_8tWKUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_NFwyRUolDrrfFidguZzV-9kkO5loL6hNFNHKkC2njztCx59H7tCoE5VOUsdlXux/image-asset.png?format=1500w)
+![Transactions on the same block are considered to have occurred at the same time. The further back the block, the older the transaction.](/static/media/blockchain-remined.png)
 
 Transactions on the same block are considered to have occurred at the same time. The further back the block, the older the transaction.
 
@@ -265,11 +265,11 @@ So, what's stopping people from just changing the data like this, giving themsel
 
 This is where the network and the power of a [**consensus protocol**](https://www.coindesk.com/short-guide-blockchain-consensus-protocols/) comes in. Since everybody has a copy of the ledger, the tampered version will be different from the rest. Here, Peer A with the tampered transaction history has a blockchain that does not agree with the rest of the network.
 
-![](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502529720589-YYYVDY262D05Q89FVCUC/ke17ZwdGBToddI8pDm48kGmcVOi9AF0JOsNWAQtUOG0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcw01sUbZ5gNuBPw9C_ej2jgKHSLh5V82qpSFQ0eFnSvKe_o2BlViWTvYyDycsbMkD/image-asset.png?format=1500w)
+![](/static/media/blockchain-peer-A.png)
 
-![](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502529799765-5MV8L6Z1UVYURH7VZUV7/ke17ZwdGBToddI8pDm48kPKDdTRQuMpkSiAb-hYrRe4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcbMa9Nh-y-X1B0vPiEIZiLSme-bNXF_9QDmTLO1OEeBpkMqTdUj-N8nms6Y_e7_Cw/image-asset.png?format=1500w)
+![](/static/media/blockchain-peer-B.png)
 
-![](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502529844155-V4UZXKUQWPZBMYOW2VJC/ke17ZwdGBToddI8pDm48kGf3gh5fIORHIrh0eAI9W4EUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcwmtYFPSiJqSSGaid0KTH-hAHNxtjttjc43J7A4Ev9XAou4tdT3pMj3OVWdLrWK1m/image-asset.png?format=1500w)
+![](/static/media/blockchain-peer-C.png)
 
 In order to add a new transaction, the 🔑nonce needs to be found for which the 🔒hash is 0000... for the given data. For the transaction to be accepted by the network, **the majority** 👥 of the network has to **agree** on that version of the blockchain.
 
@@ -295,7 +295,7 @@ Instead of blindly giving into hype, or conversely, dismissing the technology co
 
 This post was not intended for use as investment advice. The most valuable suggestion I can give here is to conduct your own due diligence and decide for yourself what you think about the technology. The speculation and general lack of understanding oftentimes lead to price volatility and the self-fulfilling-prophecy nature of the news articles that follow. See reddit user /u/SecondNad's visualization on Bitcoin search trends vs. its value:
 
-![Source:  reddit](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1502690899341-MZKTLTMP3US0SS39WTH0/ke17ZwdGBToddI8pDm48kNFpt3KGrYvTCbB2MXXDkHZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpy8PWuAMPyPaFwngX8GDn7KNQcdixTI9Rb5wn6HKqNmfoZ3vGA1BKyZylC5DHmr1EA/image-asset.png?format=1500w)
+![Source:  reddit](/static/media/search-trend-btc-val.png)
 
 Source: [reddit](https://www.reddit.com/r/dataisbeautiful/comments/6aiked/bitcoin_google_search_trend_vs_bitcoin_value_oc/)
 

@@ -8,10 +8,8 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Ethereum"
-description: "If you've scoured around for some information on blockchain technology, you are likely to have come across the name Ethereum. Like the experience of reading about Bitcoin for the first time, the abundance of technical terms and novel concepts may have left you more confused than when you first started reading. With this post, I aim to give a gentle introduction to the fundamental ideas behind Ethereum, explain what "smart contracts" are, and what we could potentially achieve with the technology...
-
-"
-socialImage: "/media/image-2.jpg"
+description: "If you've scoured around for some information on blockchain technology, you are likely to have come across the name Ethereum. Like the experience of reading about Bitcoin for the first time, the abundance of technical terms and novel concepts may have left you more confused than when you first started reading. With this post, I aim to give a gentle introduction to the fundamental ideas behind Ethereum, explain what smart contracts are, and what we could potentially achieve with the technology."
+socialImage: "/media/42-line-bible.jpg"
 ---
 
 If you've scoured around for some information on blockchain technology, you are likely to have come across the name *Ethereum*. Like the experience of reading about Bitcoin for the first time, the abundance of technical terms and novel concepts may have left you more confused than when you first started reading. With this post, I aim to give a gentle introduction to the fundamental ideas behind Ethereum, explain what "smart contracts" are, and what we could potentially achieve with the technology.
@@ -102,7 +100,7 @@ In the above example, Jane might have overpaid* for an item in VendingMachine, 
 
 ***0.5 ETH is about $150 at the time of writing... looks like Jane enjoys some bougie snacks*
 
-![Etherscan.io &nbsp;is the Ethereum blockchain explorer. Here, we can see transactions occurring in real time, search transaction IDs (Txhash) to check their status, and explore different accounts on the blockchain. In this example we can see that senders/receivers can either be  normal accounts &nbsp;or  contract accounts  (denoted by 📄).](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1506568674193-NCA6PC9V4EZT0BZHFTNW/ke17ZwdGBToddI8pDm48kODAntpfgGHqXss6mVDzVbwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc6Vg8rhLxSXfoDdmhyVhvWTHYttEs1AeoZhXeap1CITudGbuo6WkQm-yUnRo3ZIk8/Screen+Shot+2017-09-28+at+10.17.05.png?format=1500w)
+![Etherscan.io &nbsp;is the Ethereum blockchain explorer. Here, we can see transactions occurring in real time, search transaction IDs (Txhash) to check their status, and explore different accounts on the blockchain. In this example we can see that senders/receivers can either be  normal accounts &nbsp;or  contract accounts  (denoted by 📄).](/static/media/etherscan.png)
 
 [Etherscan.io](https://etherscan.io/) is the Ethereum blockchain explorer. Here, we can see transactions occurring in real time, search transaction IDs (Txhash) to check their status, and explore different accounts on the blockchain. In this example we can see that senders/receivers can either be **normal accounts** or **contract accounts** (denoted by 📄).
 
@@ -170,7 +168,7 @@ Notable projects: [Starbase](https://starbase.co/), [Giveth](http://www.giveth
 
 ⛽️ Ethereum's unit of computational "work", i.e. its unit of program execution/transaction fee, is **gas**. Gas helps to ensure that the network doesn't become bogged down with meaningless (spam) transactions. Transactions carrying insufficient fees "run out of gas" mid-computation -- protecting the network from [infinite loops](https://en.wikipedia.org/wiki/Halting_problem). Gas cannot be "owned" but is instead converted from Ether paid by the sender, then converted back and paid out to miners as Ether -- we do this instead of paying fees directly with Ether to separate the **price**** for the computation** (tied to amount of "work") from the **price of Ether** (tied to market fluctuations).
 
-![MyEtherWallet &nbsp;is an open-source wallet where you can store, send, and receive Ether.&nbsp;(as well as other tokens)](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1506598035877-OWRSJTB954CWGYGMMLKZ/ke17ZwdGBToddI8pDm48kKki42TkJvv0fu-eHK0NfroUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKciwktKO392ghkkHNNpXHYSzi-mOOTXUqZDJ4PoMsQIefu7-DW8p15WjmBvupsZM5k/Screen+Shot+2017-09-28+at+18.26.35.png?format=1500w)
+![MyEtherWallet &nbsp;is an open-source wallet where you can store, send, and receive Ether.&nbsp;(as well as other tokens)](/static/media/myetherwallet.png)
 
 [MyEtherWallet](https://www.myetherwallet.com/) is an open-source wallet where you can store, send, and receive Ether. (as well as other tokens)
 
@@ -206,7 +204,7 @@ Today, there are plenty of channels where you can inquire about the product and 
 
 Here is a presentation I gave for one of our weekly Lunch & Learn sessions at work. Each week, people can volunteer to share their knowledge about any topic of their choice - be it programming languages, new tools, or specialist hobbies. The information presented here is as of late October 2017.
 
-![](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1515314763567-CDNCL96UHI0NLAFGWTG6/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/1_wV984lYiBGX8Tep88bf16w.jpeg?format=1500w)
+![](https://vimeo.com/249986813)
 
 ADDITIONAL RESOURCES & FURTHER READING
 --------------------------------------

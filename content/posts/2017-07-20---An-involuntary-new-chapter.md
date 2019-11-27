@@ -17,7 +17,7 @@ Last Spring, I crossed the threshold into adulthood and graduated with an exciti
 
 In the months that followed, I [sourced](https://www.recruiter.com/i/sourcing/), screened, closed technical talent, and worked cross-functionally to improve on the hiring process. I grew immensely; partially through my day-to-day responsibilities, but more significantly by being in the *environment* itself: the crowd, the city, and the industry. I sat in on engineering updates and guest speaker Q&As and absorbed everything in awe. I believed in the product and team, and saw myself contributing more to it over the next few years.
 
-![Dolores Park, SF - beating heart of the Mission district and one of my favourite places in the world.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1501078544192-O8FG6Q61G3AOTVJ7ECAC/ke17ZwdGBToddI8pDm48kASM_9_lTSsgcuKqTI207t8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dkA5ogEOA5NeolvE5nGZZ43HQN6jixXE4oPgDjhJqGZh3WUfc_ZsVm9Mi1E6FasEnQ/image-asset.jpeg?format=1500w)
+![Dolores Park, SF - beating heart of the Mission district and one of my favourite places in the world.](/static/media/dolores-park.jpeg)
 
 Dolores Park, SF - beating heart of the Mission district and one of my favourite places in the world.
 
@@ -31,7 +31,7 @@ On the flight to Bangkok, I braced for the familiar feeling of displacement. I k
 
 And here I am today at the heart of this Asian metropolis, in a familiar place but completely novel situation. I am primarily excited about two things. The first being [this site](http://www.nichanank.com/about/), which I created hoping to document my journey moving forward as well as my thoughts on current events, technology, and various pursuits. The second thing I'm excited about is my next career opportunity: over the past few weeks I have learned about and decided to join ThoughtWorks, a global technology consultancy that has recently established a branch in Bangkok. I will be joining a small team and wear multiple hats as an Operations Associate. 
 
-![View from the 32nd Floor of G Tower, which houses ThoughtWorks' Bangkok office.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1501146882667-TUBP0JXQILWPUV1MGAW9/ke17ZwdGBToddI8pDm48kHMXuvbo5GBRBeUR3q3X0JB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0haypLsn6iFkXbd5QrnyzAGney9OX9OFacdlscpaYysolwBXZozLqk3WCmTcfiZN1Q/image-asset.jpeg?format=1500w)
+![View from the 32nd Floor of G Tower, which houses ThoughtWorks' Bangkok office.](/static/media/thoughtworks-office.jpeg)
 
 View from the 32nd Floor of G Tower, which houses ThoughtWorks' Bangkok office.
 
