@@ -15,13 +15,13 @@ socialImage: "/media/image-2.jpg"
 
 As we saw from previous articles on sidechains and state channels, scaling solutions built on top of an existing blockchain can greatly enhance its usability in payments and other applications. The [Lightning Network](https://lightning.network/) is a network of payment channels that was originally built on top of Bitcoin and has since extended to other blockchains. On Lightning, individuals can open up peer-to-peer payment channels with one another and make many transactions without accruing the costs of on-chain fees whilst reaping the benefits of having a decentralized blockchain as an underlying layer of security.
 
-![A high-level depiction of payment channels, a type of state channel which specifically handles payment transfers. Implementations of state channels can vary - notable projects include  Lightning Network ,  Raiden ,  Trinity ,  FunFair , and  SpankChain .](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1546914956746-USG2EBW9TSMPNUORK10E/ke17ZwdGBToddI8pDm48kNG2KodaeIUo8oxmvEAw9nNZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVEKIo6liMpCK26T9LJk4Otf7gMnyHVzL87i6n8NCZeCxmbSd6kfRtgWHgNMDgGnmDY/Screen%2BShot%2B2018-10-08%2Bat%2B11.42.45%2BAM.png?format=1000w)
+![A high-level depiction of payment channels, a type of state channel which specifically handles payment transfers. Implementations of state channels can vary - notable projects include  Lightning Network ,  Raiden ,  Trinity ,  FunFair , and  SpankChain .](/static/media/payment-channels.png)
 
 A high-level depiction of payment channels, a type of state channel which specifically handles payment transfers. Implementations of state channels can vary - notable projects include [Lightning Network](http://lightning.network/), [Raiden](https://raiden.network/), [Trinity](https://trinity.tech/), [FunFair](https://funfair.io/), and [SpankChain](https://spankchain.com/).
 
 At any point, there is assurance that the blockchain will be there as an "unbribable" arbiter when the individuals want to settle or in case of dispute. Like on-chain Bitcoin payments, Lightning payments do not rely on trust and are cryptographically secured using hashes.  Fundamentally, it uses the underlying blockchain as a court, allowing people to transact millions of times **off-chain** to achieve instant finality for a fraction of the on-chain fees. Some stats:
 
-![A snapshot of Lightning Network statistics as of 24/01/2019, courtesy of  1ml . Note that the fees are a far cry from that of on-chain transactions which can range from cents to several dollars.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1548347751121-C9TP271T8RHM8OAZTU5A/ke17ZwdGBToddI8pDm48kKiDXlMyLD_MNK9RkdnLSKIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2doyNu2sKLrzsSxXUMjqGLyr94tLkT2bWA5LIl_yi3uR_CjLISwBs8eEdxAxTptZAUg/Screen+Shot+2019-01-24+at+11.35.33+PM.png?format=1500w)
+![A snapshot of Lightning Network statistics as of 24/01/2019, courtesy of  1ml . Note that the fees are a far cry from that of on-chain transactions which can range from cents to several dollars.](/static/media/lightning-network-stats.png)
 
 A snapshot of Lightning Network statistics as of 24/01/2019, courtesy of [1ml](https://1ml.com/statistics). Note that the fees are a far cry from that of on-chain transactions which can range from cents to several dollars.
 
@@ -170,7 +170,7 @@ Bob and intermediary nodes could opt to collect very small fees to participate i
 
 ✍🏼Essentially, the route is a series of trustless IOUs. None of the intermediary nodes can 'cheat' because the network is implemented per the contract terms. In fact, you don't even have to know who the intermediaries are --- just like you don't know how many hops it takes for your search query to reach Google. The first implementation of Lightning network is actually based on [**onion routing**](https://www.onion-router.net/Summary.html) like Tor. You don't know if the person you're getting it from is the source of the transaction or someone just relaying it, and you don't know if the next person is the destination or just the next intermediary, adding a layer of privacy. See a great explainer for how this works by Rene Pickhart [here](https://www.youtube.com/watch?v=toarjBSPFqI) and Andreas Antonopoulos [here](https://www.youtube.com/watch?v=D-nKuInDq6g).
 
-![An infographic illustrating how onion routing works.  Source . Here is an  article  detailing onion routing by Bitcoin developers](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1548415649864-CQS8S2JHYQJVLZ1NDBOS/ke17ZwdGBToddI8pDm48kL7Tdkf7awovm37u-jqgAwEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc58tyWpEiLGr9Ta2twzG6oz7XiZayBcUXUGqjuGV4BzHS1KEWvKmP0nuHTG3FLAcD/image-asset.jpeg?format=1500w)
+![An infographic illustrating how onion routing works.  Source . Here is an  article  detailing onion routing by Bitcoin developers](/static/media/onion-routing-infographic.png)
 
 An infographic illustrating how onion routing works. [Source](https://pbs.twimg.com/media/CKhWOMrW8AAO8Tp.jpg). Here is an [article](https://coinjournal.net/bitcoin-developers-explain-tor-style-onion-routing/) detailing onion routing by Bitcoin developers
 
@@ -221,7 +221,7 @@ ON THE SHOULDERS OF GIANTS
 
 The internet as we know it transfers data in different packets. On the application layer protocol, we see a set of network "rules" that enables different features of the internet: email ([SMTP/POP](https://www.hmailserver.com/documentation/v4.2/?page=whatis_pop3imapsmtp)), voice transfer ([VoIP](https://computer.howstuffworks.com/ip-telephony.htm)), secure transfer and connection ([TLS/SSL](https://www.digicert.com/ssl/)). By being "online" - you can be on a Skype call whilst sending an email and securely browsing a website. These activities are governed by protocols running on the [internet protocol](https://www.computerhope.com/jargon/t/tcpip.htm) (IP). How this data is transferred is abstracted away in lower layers, and everything just *works* on our end thanks to the infrastructure that allows application developers to build user-friendly interfaces that we interact with without having to worry about how the data packets reaching and leaving our devices.
 
-![Source](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1548385733676-EINQNUHHX9PE0VP1IMD3/ke17ZwdGBToddI8pDm48kFPFaBBkrKpwlLe51WEjbU9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx7nhPB_Q-t0OSgqfLcYpa_q3YPtgAcBWCZh0uzofrsB1fwMT6Pz7Bii7T2DkH1D-0/internet_layers.png?format=1500w)
+![Source](/static/media/layer-model-ip.png)
 
 [Source](http://www.snb.guru/sh_gcse/a-level/tcp_ip.php)
 
@@ -229,13 +229,13 @@ With the internet, you don't have to care how your search queries are being tran
 
 💡The innovations that we are seeing today is occurring not just in the base layer (public blockchains), but those on top. Applications build on top of it can anchor to the underlying layer for transaction data. "Layer 2" can be the HTTP for blockchains with payment channel networks like Lightning enabling instant, high volume transactions. If one party goes offline, there are time-locked transactions on the chain such that all the other party has to do is broadcast the transactions and still get her money, **limiting counterparty risk**. [2][3]
 
-![Taken from Elizabeth Stark's  presentation  - "The Importance of Layer 2" at Blockstack Summit 2017.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1548385676179-ZGHM7RB0VOB9DU8RJV7B/ke17ZwdGBToddI8pDm48kID_IKzwy3QH2A-E01w1E_kUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc-8BkNvWnPm2Xri8YUNWc7B7P4kSMzmSDO3zrgz5dhVuOY_H4EXRrVStnRZM8vZiS/Screen+Shot+2019-01-05+at+7.36.45+PM.png?format=1500w)
+![Taken from Elizabeth Stark's  presentation  - "The Importance of Layer 2" at Blockstack Summit 2017.](/static/media/the-importance-of-l2.png)
 
 Taken from Elizabeth Stark's [presentation](https://www.youtube.com/watch?v=3PcR4HWJnkY) - "The Importance of Layer 2" at Blockstack Summit 2017.
 
 Additional security and privacy features can be implemented on top of Lightning as well. Implementations of proposals for [sphinx](https://medium.com/chainrift-research/invoiceless-lightning-payments-with-sphinx-ce14af83cb8c) and [Watchtower](https://www.coindesk.com/laolu-building-watchtower-fight-bitcoin-lightning-fraud) enables things like invoiceless (spontaneous) payments on Lightning and privacy-preserving outsourcing of fraud monitoring respectively. These improvements will render the network to be more versatile toward a wider variety of use cases.
 
-![👀A  Lightning Network explorer  mapping nodes around the world by ACINQ. One of  many](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1548405462364-YTDZD3ALOMN70EOV6Q4C/ke17ZwdGBToddI8pDm48kMYb5ZvuJU79lVrGXCSIVBJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfTNEEYxUbn27Z4JbWwPx6rTL51nIbLa3jEuZJFJE76_7zs2yPjc1ECvpa5Zm_kMqw/Screen+Shot+2019-01-25+at+3.37.13+PM.png?format=1500w)
+![👀A  Lightning Network explorer  mapping nodes around the world by ACINQ. One of  many](/static/media/lightning-network-explorer.png)
 
 👀A [Lightning Network explorer](https://explorer.acinq.co/) mapping nodes around the world by ACINQ. One of [many](https://gist.github.com/bretton/798ec38165ffabc719d91e0f4f67552d)
 

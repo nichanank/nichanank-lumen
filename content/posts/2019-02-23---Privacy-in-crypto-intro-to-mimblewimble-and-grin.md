@@ -23,7 +23,7 @@ HARRY POTTER AND THE HISTORY OF MIMBLEWIMBLE
 
 🤐In late 2016, a pseudonymous character named Tom Elvis Jedusor showed up on the bitcoin developers' chatroom and posted a tor link, which hosted a single file named [MIMBLEWIMBLE](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt), outlining a new design for a privacy-preserving, massively prunable blockchain. Tom Elvis Jedusor, as some may recognize, is the name of Voldemort's given name in the French Harry Potter books. Diehard fans will also recognize MimbleWimble as the spell that ties the target's tongue in a knot, [preventing coherent speech](https://harrypotter.fandom.com/wiki/Tongue-Tying_Curse). Tom Elvis Jedusor to this date has never logged into the chatroom again. Here is Tom's first and only post:
 
-![Screen Shot 2019-02-24 at 2.00.00 AM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550948590214-FFB465241SSQ9NE1OVAJ/ke17ZwdGBToddI8pDm48kPOdIH1zTnq6vSTl1elu2zwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2droGBYRy5N56_SIGlXoPfmgdXSIaZLc1EOUBMgbEI7OXCjLISwBs8eEdxAxTptZAUg/Screen+Shot+2019-02-24+at+2.00.00+AM.png?format=1500w)
+![Screen Shot 2019-02-24 at 2.00.00 AM.png](/static/media/mimblewimble-anonymous-post.png)
 
 During the weeks following, cryptography experts examine MimbleWimble's trust model and quickly came to recognize its legitimacy. Cryptographers [Andrew Poelstra](https://www.weusecoins.com/andrew-poelstra/) and Avi Kulkarni soon develop a "**sinking signatures**"extension to improve the protocol's scaling properties.
 
@@ -42,7 +42,7 @@ A **transaction** contains inputs and outputs:
 
 -   Outputs will be *unspent* (i.e. still **spendable**) until they are used in a new transaction
 
-![The wallet software automatically aggregates various txn inputs that add up to construct the desired output amount. For example, if you have been sent $5, $2, and $10 on separate occasions, the wallet will decide how to best use these  unspent  input to construct an outgoing transaction worth $15.  Image source:  Bitcoin whitepaper](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550726081542-T6KDDMH120LPUZNKH0UL/ke17ZwdGBToddI8pDm48kOz4mw4Z_YLtV5tQWw1AnNNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIbGO9HaFRjNeE7zfFOdMMjpreCW577X64nqiu7Ode_Yk/image-asset.png?format=1500w)
+![The wallet software automatically aggregates various txn inputs that add up to construct the desired output amount. For example, if you have been sent $5, $2, and $10 on separate occasions, the wallet will decide how to best use these  unspent  input to construct an outgoing transaction worth $15.  Image source:  Bitcoin whitepaper](/static/media/transaction-utxo.png)
 
 The wallet software automatically aggregates various txn inputs that add up to construct the desired output amount. For example, if you have been sent $5, $2, and $10 on separate occasions, the wallet will decide how to best use these *unspent* input to construct an outgoing transaction worth $15.
 
@@ -56,7 +56,7 @@ The inputs of a transaction become the **spendable outputs** of a subsequent tra
 
 🔑Since you need the private key to produce a digital signature, and the digital signature to make a transaction, **access to the private key is the equivalent of coin ownership**. If someone gets a hold of your private keys they have just as much control over the funds as you do. This is why it's so important to keep your private keys safe and secret. A diagram of how Bitcoin transactions are linked:
 
-![Image source:  Bitcoin whitepaper](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550548154985-DW9PD6S13KU0QZGC3Q6Q/ke17ZwdGBToddI8pDm48kBfRfcUYsjKUciDw2WdsnO8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dj4wX6PtS9kXwVG5Vr1CLwa5xMgU_j4Ntx-wmw2opCUOCjLISwBs8eEdxAxTptZAUg/Screen%2BShot%2B2018-03-10%2Bat%2B3.31.56%2BPM.png?format=1500w)
+![Image source:  Bitcoin whitepaper](/static/media/transaction-blocks-bitcoin.png)
 
 Image source: [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
@@ -72,7 +72,7 @@ Image source: [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
 Each input is an output from a past transaction. For each input there is a distinct signature (scriptsig) which is created in accordance the past-output that it is spending (scriptpubkey). [17]
 
-![Every input has a key (" ScriptPubKey ") associated with it, along with a signature (" ScriptSig ") for a transaction with that key.   Image source : Programming Bitcoin by Jimmy Song](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550319920471-9GFRWWGBEG3D0KWJWFUC/ke17ZwdGBToddI8pDm48kJCRYvs0R00UqLqiqBfL4ilZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVHNCf3S-0G0OHKQM53KroOm3QsS_2mEtt8zraANqZjY0rRBW_h4VpY7Sfr3yg3_3os/Screen+Shot+2019-02-14+at+2.28.01+AM.png?format=1000w)
+![Every input has a key (" ScriptPubKey ") associated with it, along with a signature (" ScriptSig ") for a transaction with that key.   Image source : Programming Bitcoin by Jimmy Song](/static/media/transaction-spending.jpeg)
 
 Every input has a key ("*ScriptPubKey*") associated with it, along with a signature ("*ScriptSig*") for a transaction with that key.
 
@@ -90,7 +90,7 @@ To understand how privacy is achieved on MimbleWimble, we take a look at **confi
 
 [**CoinJoin**](https://en.bitcoin.it/wiki/CoinJoin)is a [scheme proposed](https://bitcointalk.org/index.php?topic=279249.0) by Gregory Maxwell. This technique allows us to join multiple transaction inputs together and route the appropriate values to their destinations without knowing exactly who paid whom how much. This protocol involves *N* users agreeing on a uniform output size and provide inputs amounting to that size. The users then all sign the transaction, which then could be transmitted. [16']
 
-![This coinjoin implementation is  interactive  as everybody who is transacting has to consent to it as per the protocol. If Alice wanted to make a coinjoin payment, she can find someone else who also wants to make a payment (e.g. Bob) and they can make a joint payment together. Externally, it is unclear who paid Ted and who paid Carol.   Image source](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550348086607-HX3XTQWK1W2YGC7TNVZQ/ke17ZwdGBToddI8pDm48kGTE-TMl8iUx1EZ-qT1eZ4xZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIVLVJFOEmq19mmGmHWFqmTSIMBnQk1CsGdjQ8-ynhwWc/coinjoin.png?format=1500w)
+![This coinjoin implementation is  interactive  as everybody who is transacting has to consent to it as per the protocol. If Alice wanted to make a coinjoin payment, she can find someone else who also wants to make a payment (e.g. Bob) and they can make a joint payment together. Externally, it is unclear who paid Ted and who paid Carol.   Image source](/static/media/coinjoin.png)
 
 This coinjoin implementation is **interactive** as everybody who is transacting has to consent to it as per the protocol. If Alice wanted to make a coinjoin payment, she can find someone else who also wants to make a payment (e.g. Bob) and they can make a joint payment together. Externally, it is unclear who paid Ted and who paid Carol.
 
@@ -120,7 +120,7 @@ sum of inputs - sum of outputs - mining fee = kernel
 
 Instead of making each transaction input and output values public, MimbleWimble aggregates all the transacting parties and verifies the entire sum instead of *each* signature. We calculate **sum of inputs - sum of outputs** to end up with a multi-signature "**kernel**" that was authorized by everybody involved in that block of transactions - the owner of every input and the owner of every output. This means we don't have store individual addresses and amounts on the blockchain. Two transactions which can be merged into a block to form one, removing all intermediary information. [8]
 
-![This diagram is based off of Andrew Poelstra's  presentation  on MimbleWimble.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550931513328-2EQTVTHSJ78S3KLS1VGF/ke17ZwdGBToddI8pDm48kNxhWDl0kD1NJi9yZBekolYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dse4q49O8hU1Bx786RzO5kVRHzgBbdovZDhWVcBfiwJECjLISwBs8eEdxAxTptZAUg/Screen+Shot+2019-02-23+at+9.17.50+PM.png?format=1500w)
+![This diagram is based off of Andrew Poelstra's  presentation  on MimbleWimble.](/static/media/mimblewimble-ins-outs.png)
 
 This diagram is based off of Andrew Poelstra's [presentation](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/andrewpoelstra.pdf) on MimbleWimble.
 
@@ -128,7 +128,7 @@ So if Bob sends 1 Bitcoin to Alice who then sends 1 BTC to Carol, the end result
 
 If we zoom out and extend this idea to the entire blockchain, we can get a better idea of which information is preserved and which can be pruned away:
 
-![Only  unspent outputs ,  aggregated signatures  and new currency generation ( coinbase ) are stored on the blockchain, saving huge amounts of space  This diagram is based off of Andrew Poelstra's  presentation  on MimbleWimble.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550934071906-S1G2437QHQ17IHGKTH3O/ke17ZwdGBToddI8pDm48kLKblPbT2O-kgWfusDmuUrB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm2_YXWcRX3rD8JXD-nfUwRY2rsIy7azWz3KhFCoTS5E64qq8mRDu9PjT5aNwuXtAj/Screen+Shot+2019-02-23+at+10.00.52+PM.png?format=1500w)
+![Only  unspent outputs ,  aggregated signatures  and new currency generation ( coinbase ) are stored on the blockchain, saving huge amounts of space  This diagram is based off of Andrew Poelstra's  presentation  on MimbleWimble.](/static/media/mimblewimble-transaction-pruning.png)
 
 Only **unspent outputs**, **aggregated signatures** and new currency generation (**coinbase**) are stored on the blockchain, saving huge amounts of space
 
@@ -145,19 +145,19 @@ Despite the difficulty of building MW on Bitcoin right away, there is consensus 
 
 In Grin, there are no addresses, no amounts, and 2 transactions which "spend" one another can be merged to form one - with all intermediary information removed. A Grin block looks just like one big transaction and **original associations between inputs and outputs are not preserved on the blockchain**. Unless you directly participated in the transaction, all inputs and outputs look like random pieces of data:
 
-![Information on block #53132 on  GrinExplorer](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550949069387-S0TXBCE9OOK2PFNEUH2G/ke17ZwdGBToddI8pDm48kApTBBCQPQgWDu2Q6xNhrUV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UW0sq80I-LGeDvNrGcE6IQsFYG1r3PwPBqi6aUJ9GTDTG6v6ULRah83RgHXAWD5lbQ/Screen+Shot+2019-02-24+at+2.10.22+AM.png?format=1500w)
+![Information on block #53132 on  GrinExplorer](/static/media/grin-explorer.png)
 
 Information on block #53132 on [GrinExplorer](https://grinexplorer.net/block/000010eb58c75cfa8d11f0feec8c97542522133bd0ab0bf5156f91fb0573543e)
 
 Transactions in this block, plus its kernels:
 
-![Inputs are  Pedersen commitments  which are references to previous outputs, there are also no identifiable addresses. To an observer this is indistinguishable from random pieces of data.  There are  no visible amounts  and transactions are aggregated - making it very hard to link individual inputs to its outputs. Each Grin block is essentially a big coinjoin transaction signed by all parties involved.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550948943399-IZEGKKYHGV9WZS7NOSK3/ke17ZwdGBToddI8pDm48kPtIIX8HfrzPBLHJv7lXCbt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URpa-2XMv_NSSmsc5I3zW50IK4ywHgWxB1VcQ6KYnCBeOpYghpI-Ha_TwZsqqmJXng/image-asset.png?format=1500w)
+![Inputs are  Pedersen commitments  which are references to previous outputs, there are also no identifiable addresses. To an observer this is indistinguishable from random pieces of data.  There are  no visible amounts  and transactions are aggregated - making it very hard to link individual inputs to its outputs. Each Grin block is essentially a big coinjoin transaction signed by all parties involved.](/static/media/transactions-kernels.png)
 
 Inputs are **Pedersen commitments** which are references to previous outputs, there are also no identifiable addresses. To an observer this is indistinguishable from random pieces of data.
 
 There are **no visible amounts **and transactions are aggregated - making it very hard to link individual inputs to its outputs. Each Grin block is essentially a big coinjoin transaction signed by all parties involved.
 
-![Kernels  represent the  excess value , lockheight, fees, and  signatures of the transacting parties  involved.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1550949186554-YYV5FAZH9CSDE22AEDZD/ke17ZwdGBToddI8pDm48kCAaznS_bOWvnm5gnYfkIHAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcI3PgpNRCw9df6K4EXiKkJSujLyERM_mRI59uOdnhYoBnYjdczS_NLe3mWA7MwDOD/kernels.png?format=1500w)
+![Kernels  represent the  excess value , lockheight, fees, and  signatures of the transacting parties  involved.](/static/media/kernels.png)
 
 **Kernels** represent the** excess value**, lockheight, fees, and **signatures of the transacting parties** involved.
 
