@@ -78,7 +78,7 @@ That iPhone 10 camera...
 
 One thing I was anxious about was the accessibility of the vinyl record market in Thailand. Back in the US, I would make trips to dig crates in flea markets and record stores in SF and the East Bay every weekend. I made an ambitious wishlist on Discogs that grew faster than the rate at which records were being checked off. Fortunately, Fortune Town in Rama 9 has an entire floor of audiophile shops and record stores with a wide selection of jazz, rock, and oldies music. In fact, record collectors scene here seems quite active. There was a *Seasons of Sound* music festival in early October and I found some albums that I had been digging for for a while. The selection here contains significantly more Japanese pressings than that in the States, while hip-hop and European dance/house records are harder to come by. With everything that has been going on I haven't had the chance to visit other recommended stores outside Fortune Town yet, that will change soon!
 
-![My first scores in Bangkok, from the Seasons of Sounds festival at Fortune Town - that Moody Blues!](/static/media/records.png)
+![My first scores in Bangkok, from the Seasons of Sounds festival at Fortune Town - that Moody Blues!](/static/media/records.jpg)
 
 My first scores in Bangkok, from the Seasons of Sounds festival at Fortune Town - that Moody Blues!
 
