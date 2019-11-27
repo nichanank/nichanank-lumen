@@ -34,7 +34,7 @@ First we address a common misunderstanding that is partially fueled by a misrepr
 
 I bring up skeuomorphism because of this:
 
-![The first images you see when you Google search "bitcoin"](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520517837794-JFSRJJJIL830XKP68W7C/ke17ZwdGBToddI8pDm48kBNqPjcq_ZbNQ_THf030cZsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcDG4HLBHvq4mqfZr_H6XOn7mJiguDLL4j6yARS3z72BDajJZhMVLzMM3aaDvEzxfI/Screen+Shot+2018-03-08+at+22.01.10.png?format=1500w)
+![The first images you see when you Google search "bitcoin"](/static/media/skeuomorphism.png)
 
 The first images you see when you Google search "bitcoin"
 
@@ -51,7 +51,7 @@ To address this gap, let's peel of the metaphoric layers and see what's actually
 
 The term *crypto* has become quite ubiquitous in the past year amongst online publishing and casual conversations. Despite its common reference to cryptocurrencies, it stems from *cryptography*, the security backbone of bitcoin and all other altcoins.
 
-![Google search trends for "crypto" from 2004-present](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520547797303-QXLIUY6FSPPGI1ZTBGPV/ke17ZwdGBToddI8pDm48kBVw7LHMheYrTRSxwZ_iv0YUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc0OOB-eQfL1XYY3UGdTSOvwpRhfhPFzP45htjVWLWA3FwQWGeehdOGvUW9PwlfZoJ/Screen+Shot+2018-03-09+at+06.22.49.png?format=1500w)
+![Google search trends for "crypto" from 2004-present](/static/media/crypto-google-trends.png)
 
 Google search trends for "crypto" from 2004-present
 
@@ -61,7 +61,7 @@ Public key cryptography uses a pairing of public and private keys, which are lin
 
 One use case of public key cryptography is **encryption**. Going back to the Wikipedia definition above, encryption allows you to send messages through an unsecure network (e.g. the internet) without it being understood or tampered with - *secure communication in the presence of third parties*. Once Bob encrypts his message using Alice's public key, only Alice can decrypt the message (assuming she is the only one in possession of her private key).
 
-![Actual public/private keys look more like  this](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520548665047-GAI7XWKWH9HUHHZ1FAJ1/ke17ZwdGBToddI8pDm48kK7tGK_ZphRydoBfIduRxYBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwb-J8ITAX7jm5l9Vdqk-BAEHHO-kH3tO4Oq3DfTE35tohU_OYMZVNM2vz6wveoGJw/btc1.png?format=1500w)
+![Actual public/private keys look more like  this](/static/media/pkc-graphic.png)
 
 Actual public/private keys look more like [this](https://www.gpg4win.org/doc/images-compendium/sc-wordpad-editOpenpgpKey_en.png)
 
@@ -77,7 +77,7 @@ Both keys in the public/private key pair are needed for a successful transaction
 
 -   🔏The **private key** serves as a unique pen that can produce the digital signature, verifying that the sender of the transaction is the owner of the coins.
 
-![Source:  http://tech.eu/features/808/bitcoin-part-one/](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520673811541-3D975IPR9MLHSEE1Y9DI/ke17ZwdGBToddI8pDm48kG_LQ23-sT2fZxscDfUMXOdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIAn68ZKBM6scvgq3EUV26xan-CxPt-wNdAzweH052ST8/Digital-Signature-validation.png?format=1500w)
+![Source:  http://tech.eu/features/808/bitcoin-part-one/](/static/media/digital-signature-validation.png)
 
 Source: [http://tech.eu/features/808/bitcoin-part-one/](https://www.nichanank.com/blog/2018/3/5/anatomy-of-a-bitcoin-transaction#)
 
@@ -93,7 +93,7 @@ Since you need the private key to produce a digital signature, and you need the 
 
 If the private key is lost, there is no way to retrieve it. In fact, millions of dollars worth in bitcoin has gone out of circulation because of [private key loss](http://fortune.com/2017/11/25/lost-bitcoins/) or [death](http://fortune.com/2017/09/26/cryptocurrency-bitcoin-death/) of the owner.
 
-![Source:  Bitcoin whitepaper](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520670974646-P21CV7FLGXUMZZXLQR44/ke17ZwdGBToddI8pDm48kG_brsltkpGPjTfGO92xzmYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dom84ZCAOCl4pl8n7a8S6ZslN47w2rUSrIdk3ryFpUXNCjLISwBs8eEdxAxTptZAUg/Screen+Shot+2018-03-10+at+3.31.56+PM.png?format=1500w)
+![Source:  Bitcoin whitepaper](/static/media/transaction-blocks-bitcoin.png)
 
 Source: [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
@@ -132,13 +132,13 @@ Transactions do allow for multiple inputs and outputs. Normally it will be that 
 
 You can't have more inputs than outputs, because at least one output will go back to the sending address as "change" (new UTXO for the sending address). The fact that transactions can have multiple inputs and outputs allows for "coins" to be split and combined - therefore, a transfer of 0.000001th of a bitcoin is possible.
 
-![Source:  Bitcoin whitepaper](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520670952172-N1HYSKMMPOEDDWTCLSYR/ke17ZwdGBToddI8pDm48kOz4mw4Z_YLtV5tQWw1AnNNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIbGO9HaFRjNeE7zfFOdMMjpreCW577X64nqiu7Ode_Yk/Screen+Shot+2018-03-10+at+3.32.08+PM.png?format=1500w)
+![Source:  Bitcoin whitepaper](/static/media/transaction-utxo.png)
 
 Source: [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
 One common misconception is that the public key is the same as the address. While the two are mathematically related, this is not quite the case. The address is actually a hash of the public key. We don't give the public key out directly for security reasons explained [here](https://www.reddit.com/r/Bitcoin/comments/3filud/whats_the_difference_between_public_key_and/).
 
-![A screenshot from  Blockexplorer  which depicts transactions in real time. The  U  and  S  to the right stands for  unspent  and  spent  outputs to the receiving addresses](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520790672020-L9LOS24OY15MXOTD213B/ke17ZwdGBToddI8pDm48kOgVINEGK-8fIJcPnefh1Et7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0g4v3ZNvVj-u6O8ORZCl-ToWp6cNrraYK3xXunIBXdBxhw-XwGGTRP6Vy-i3hO7Zyw/Screen+Shot+2018-03-12+at+12.50.11+AM.png?format=1500w)
+![A screenshot from  Blockexplorer  which depicts transactions in real time. The  U  and  S  to the right stands for  unspent  and  spent  outputs to the receiving addresses](/static/media/blockexplorer.png)
 
 A screenshot from [Blockexplorer](https://blockexplorer.com/block/000000000000000000294298dc272e85ef79a8914e60132911ad073a7fe60f5e) which depicts transactions in real time. The **U **and **S** to the right stands for **unspent** and **spent** outputs to the receiving addresses
 
@@ -165,7 +165,7 @@ Remember that the blockchain does not contain any coins or balances, only transa
 
 A screenshot of the interface for the [Ledger Nano](https://www.ledgerwallet.com/), a popular hardware wallet.
 
-![Source:  ledgerwallet.com](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1520789526335-QM8G2NDE7UI89BO856L2/ke17ZwdGBToddI8pDm48kCd0YxfUXo7cGeIujIUjLMRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PInAoX1d2AAvN0KniDJMzsFnPUoX1xY6SGOpY9n_YllgI/chrome-send.png?format=1500w)
+![Source:  ledgerwallet.com](/static/media/wallet-view.png)
 
 Source: [ledgerwallet.com](https://www.ledgerwallet.com/images/apps/chrome-send.png)
 

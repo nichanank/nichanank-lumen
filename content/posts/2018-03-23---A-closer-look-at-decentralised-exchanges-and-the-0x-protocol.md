@@ -55,7 +55,7 @@ Most traders today utilise centralised exchanges thanks to their multi-functiona
 
 -   **Flood of speculators** in the market who are unaware of safe ways to manage their assets. Because of the low barrier to entry into the space, under-educated users are putting in their funds and getting tricked/hacked
 
-![The home page of  Bittrex , a popular cryptocurrency-only exchange.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1521368608154-6UHQBSZJXMC22KJF0LIT/ke17ZwdGBToddI8pDm48kMWAdJynGOH0z8LBf8ijgUUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcwARbZld4NVoZZeHgtzrklIUVL41rUo1T6Opn7QirzwVd5k0sgZXOiYW6x8tvn4RG/Screen+Shot+2018-03-18+at+17.06.35.png?format=1500w)
+![The home page of  Bittrex , a popular cryptocurrency-only exchange.](/static/media/bittrex.png)
 
 The home page of [Bittrex](http://bittrex.com/), a popular cryptocurrency-only exchange.
 
@@ -63,7 +63,7 @@ The home page of [Bittrex](http://bittrex.com/), a popular cryptocurrency-only 
 
 Examples: [Etherdelta](https://etherdelta.com/), [CryptoBridge](https://crypto-bridge.org/), [Liqui](https://liqui.io/), [Paradex](https://paradex.io/), [RadarRelay](https://radarrelay.com/), [OpenRelay](https://openrelay.xyz/)
 
-![Etherdelta  main user interface](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1521368650090-4VF5OFCH7YJBAD3FZE3H/ke17ZwdGBToddI8pDm48kIPPvEbXQ84boen7MHDQ1rsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcW5OwUKhOIwbRyyDUjqcStVVczOvmtZcTxDa2meyS1uJUUT9eSfL593-9fWExQGjw/Screen+Shot+2018-03-18+at+17.06.48.png?format=1500w)
+![Etherdelta  main user interface](/static/media/etherdelta.png)
 
 [Etherdelta](https://etherdelta.com/) main user interface
 
@@ -98,7 +98,7 @@ It soon became clear that instead of a general dex which attempted to meet every
 
 By having 0x serve as an **open protocol** on which anyone can *create* their own for-profit decentralised exchange, we open up a single piece of infrastructure to a wide variety of different use cases. This saves teams the time and effort needed to build their one-off dex implementations from scratch, as well as create a **global liquidity pool** that builds on network effects.
 
-![Official website](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1521827537988-DPDAH9JF12CO1RKI8U6H/ke17ZwdGBToddI8pDm48kHe0yn4hJAgueDgGtoSZuY0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dr9ww00z-yJqcpIzKdoqR8MOZ615YWXK2IZXN_gKdHO3CjLISwBs8eEdxAxTptZAUg/Screen+Shot+2018-03-24+at+12.51.44+AM.png?format=1500w)
+![Official website](/static/media/0x-landing-page.png)
 
 [Official website](https://0xproject.com/)
 
@@ -134,7 +134,7 @@ Relayers aggregate these cryptographically signed 0x trade orders and present th
 
 ***A relayer is therefore really a decentralized exchange that looks like a centralized one***. However since they are not responsible for the custody of assets nor trade execution, they aren't really acting as exchange but are instead *relaying* messages back and forth between people - hence the name 'relayers'. **Generally, relayers are for-profit entities that build their decentralized exchange as a product running on the 0x protocol**.
 
-![From the  0x whitepaper](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1521570622307-I44ZXF6LRZ39UP10SPM9/ke17ZwdGBToddI8pDm48kBlJZkHnRfiOwa9mqjPwAFlZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVE93pbsRQ3fqswf4GhUMUaCd9lqoMnb7A5Gqr4AQLD_ZR926scO3xePJoa6uVJa9B4/Screen+Shot+2018-03-21+at+1.26.15+AM.png?format=750w)
+![From the  0x whitepaper](/static/media/dx-on-ethereum.png)
 
 From the [0x whitepaper](https://0xproject.com/pdfs/0x_white_paper.pdf)
 
@@ -148,7 +148,7 @@ We'll see competition between the different relayers which will be healthy for d
 
 One of the big assumptions is that relayers will trade the same set of tokens. **There is not a finite number of tokens people are interested in trading**. This explosion of tokens that come into existence is going to continue and will trend towards infinity over the years [4]. Relayers will find a market niche and carve it out, there will probably be a few dominant relayers in a specific niche but hundreds of niches e.g. relayers that focus on real estate tokens, on prediction markets (elections, politics, sports, science etc.) **Each can tailor their product and the UX for specific markets.**
 
-![Relayers currently building on 0x, from the  official website  - view the  full list](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1521826994895-PU9MJH01EHV3GLX0LGIK/ke17ZwdGBToddI8pDm48kAeK9JcbQoXM0Vj-rMnhja8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2didCrgJGvtXQGMgDmTF4PtEfeF4bzj2sJO9_XlMJuf7XCjLISwBs8eEdxAxTptZAUg/Screen+Shot+2018-03-24+at+12.42.47+AM.png?format=1500w)
+![Relayers currently building on 0x, from the  official website  - view the  full list](/static/media/0x-relayers.png)
 
 Relayers currently building on 0x, from the [official website](http://0xproject.com/) - view the [full list](https://0xproject.com/wiki#List-of-Projects-Using-0x-Protocol)
 

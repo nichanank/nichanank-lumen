@@ -38,7 +38,7 @@ Consensus isn't achieved easily because:
 
 -   Some of the messengers themselves can be traitors, tasked to relay one message and delivering the opposite information
 
-![They will be successful if and only if the    majority  of generals agree on the decision ,  and collectively attack or retreat.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527415818271-4A2G4G6W8LC18KHM98A0/ke17ZwdGBToddI8pDm48kANiuQjvIubk378PjystNcxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIdjSirB4ecdRzjCrrrRghhSfcSs3J9nezX8u5bHothuE/Screen+Shot+2018-05-27+at+5.09.56+PM.png?format=1500w)
+![They will be successful if and only if the    majority  of generals agree on the decision ,  and collectively attack or retreat.](/static/media/byzantine-generals.png)
 
 They will be successful if and only if the**majority** of generals agree on the decision*, *and collectively attack or retreat.
 
@@ -84,7 +84,7 @@ A refresher on the different parties involved in a PoW-based network:
 
 ...of course, any given person can fall into one, two, or all three of these categories if they have the required resources for it.
 
-![Role of transacting parties, nodes, and miners](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527700676862-2CPMZ9AIO2O4TJSJOPGX/ke17ZwdGBToddI8pDm48kNKBy7ADbhDMEFT2A57HnUIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2djPjMHRC1WNk5A4RCDH7xjrf_jEV_iJT6BrESMHIe8e2CjLISwBs8eEdxAxTptZAUg/image-asset.png?format=1500w)
+![Role of transacting parties, nodes, and miners](/static/media/pow-roles.png)
 
 Role of transacting parties, nodes, and miners
 
@@ -92,7 +92,7 @@ As a business model, miners spend money on hardware and electricity in order to 
 
 **Block rewards** are given when a miner successfully solves this computationally hard problem and gets their block appended to the chain, the miner also receives the **transaction fees** attached to txns in that block. You can see the newly minted bitcoin in any given block ([example](https://blockexplorer.com/block/000000000000000000012de7a51a56578eb8a1f256089db3e666fbb53ac5e9a9)), it should be at the top with no input address, and the miner's wallet address as the destination.
 
-![Newly Generated (minted) bitcoins in a transaction block. Current block reward is 12.5 BTC and will halves every 4 years.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527774441393-YSJD8C8D7YWZYY1JZGFC/ke17ZwdGBToddI8pDm48kFnPHIfRbHj1qv4-h6X_jgsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcmBKOBWRO_CZ8HhDZifG_GXuJ_PZA7xMuDFmTx3p1s8tkX5nP_2P5JR4LMkmmM75O/Screen+Shot+2018-05-31+at+8.47.08+PM.png?format=1500w)
+![Newly Generated (minted) bitcoins in a transaction block. Current block reward is 12.5 BTC and will halves every 4 years.](/static/media/blockexplorer-block.png)
 
 Newly Generated (minted) bitcoins in a transaction block. Current block reward is 12.5 BTC and will halves every 4 years.
 
@@ -105,7 +105,7 @@ If a miner decides to solve for and broadcast an invalid block (one with false t
 THE NETWORK IS BYZANTINE FAULT TOLERANT BECAUSE EACH PARTY IS INCENTIVIZED **AGAINST** MALICIOUS BEHAVIOR.
 ----------------------------------------------------------------------------------------------------------
 
-![A comparative infographic from  Patricia Estevao  - I've cropped a portion of it for our use but I highly recommend her  portfolio  for other visuals and blockchain related infographics :)](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527585838885-3OAVZYCVFD38BH97VXQ5/ke17ZwdGBToddI8pDm48kJqkHvtH2CDUYtni-HuTqWV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmrTvPs8gkgDYSuY3eM6OCUQKiD_aTOTSoMuYanNMi1FD8Dv82efH4kxKwU7WauLo2/Screen+Shot+2018-05-29+at+4.22.57+PM.png?format=1500w)
+![A comparative infographic from  Patricia Estevao  - I've cropped a portion of it for our use but I highly recommend her  portfolio  for other visuals and blockchain related infographics :)](/static/media/bft-incentives.png)
 
 A comparative infographic from [Patricia Estevao](https://www.bitcoindesigned.com/infographics/bitcoin-and-the-byzantine-generals-problem/) - I've cropped a portion of it for our use but I highly recommend her [portfolio](https://www.bitcoindesigned.com/) for other visuals and blockchain related infographics :)
 
@@ -118,7 +118,7 @@ A **block interval** is the average time it takes for a new block to be added t
 
 The block interval is maintained by the **mining target** and **mining difficulty**. Each miner is trying to find the nonce such that the [SHA256](https://passwordsgenerator.net/sha256-hash-generator/) hash of the data, previous block, and nonce is lower than or equal to the target.
 
-![Miners use equipment to randomly guess nonces such that the  SHA256  hash of the data satisfies this condition.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527589998074-KOC2Z1AJHW5NMTS0L05F/ke17ZwdGBToddI8pDm48kGhtj4fLy_fnyYarjtOnggpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpy-sBzRtV2NiYKE--9Ml_kDrLzzvD2LdVK_U3QC4uP_AGDHgmpRMJdO1lk4PTB_MPE/Screen+Shot+2018-05-29+at+5.32.46+PM.png?format=1500w)
+![Miners use equipment to randomly guess nonces such that the  SHA256  hash of the data satisfies this condition.](/static/media/sha256-hash.png)
 
 Miners use equipment to randomly guess nonces such that the [SHA256](https://passwordsgenerator.net/sha256-hash-generator/) hash of the data satisfies this condition.
 
@@ -138,7 +138,7 @@ The **mining target** hash is **dynamic** and can be adjusted should the netwo
 
 Let's say two miners from opposite sides of the world finds the nonce (solution) at the same time, they broadcast this solution and their block, both valid, starts propagating through the network. The nodes that are geographically closest to each miner will append that miner's block to their copy of the blockchain, resulting in two "versions" of the truth.
 
-![If two miners find a solution close to each other in time, both blocks are valid, but which one the nodes receive first depend on their geographical distance from the miner. This situation can cause  stale blocks](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527591468692-6X55FH4EL4I8OPSKGM6G/ke17ZwdGBToddI8pDm48kOHqcEKbtNVbA5ZdnbnAjYIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcq-Lxg40QtpH4Y44WO6p5jDtmchq_oInA4H2Fl43QrmRBLKBLZdD7bxqOlxPfyI9S/Screen+Shot+2018-05-29+at+5.57.24+PM.png?format=1500w)
+![If two miners find a solution close to each other in time, both blocks are valid, but which one the nodes receive first depend on their geographical distance from the miner. This situation can cause  stale blocks](/static/media/block-intervals-propagation.png)
 
 If two miners find a solution close to each other in time, both blocks are valid, but which one the nodes receive first depend on their geographical distance from the miner. This situation can cause **stale blocks**
 
@@ -165,7 +165,7 @@ Chances of you solving the next block = your hash rate / network hash rate
 
 Because the network hash rate is so large, individuals usually join a **mining pool** for divided but more consistent returns.
 
-![A glance at bitcoin's network hash rate over time. Source: blockchain.info](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1527593157650-HCESRZ70NCRM3C81IODL/ke17ZwdGBToddI8pDm48kJgIK9MqtDqNPNAok5QEbV57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pUc1u3Ag4xNixdY21K7ozgsis7zT06bapujyn9wvtVaKQ-QRjfx6tEVWBS9qDjUTQ/image-asset.png?format=1500w)
+![A glance at bitcoin's network hash rate over time. Source: blockchain.info](/static/media/hash-rate-graph.png)
 
 A glance at bitcoin's network hash rate over time. Source: blockchain.info
 
