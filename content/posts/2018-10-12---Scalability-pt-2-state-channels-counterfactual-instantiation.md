@@ -31,7 +31,7 @@ A **state channel** is a two-way channel between two parties (e.g. between two
 
 -   On-chain transaction fees are only charged to "open" and "close" the channel... settling final state changes by updating the blockchain
 
-![A high-level depiction of payment channels, a type of state channel which specifically handles payment transfers. Implementations of state channels can vary - notable projects include  Lightning Network ,  Raiden ,  Trinity ,  FunFair , and  SpankChain .](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1538973787597-A3DQUNMBERNDEU6ZQORL/ke17ZwdGBToddI8pDm48kNG2KodaeIUo8oxmvEAw9nNZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVEKIo6liMpCK26T9LJk4Otf7gMnyHVzL87i6n8NCZeCxmbSd6kfRtgWHgNMDgGnmDY/Screen+Shot+2018-10-08+at+11.42.45+AM.png?format=1000w)
+![A high-level depiction of payment channels, a type of state channel which specifically handles payment transfers. Implementations of state channels can vary - notable projects include  Lightning Network ,  Raiden ,  Trinity ,  FunFair , and  SpankChain .](/static/media/payment-channels.png)
 
 A high-level depiction of payment channels, a type of state channel which specifically handles payment transfers. Implementations of state channels can vary - notable projects include [Lightning Network](http://lightning.network/), [Raiden](https://raiden.network/), [Trinity](https://trinity.tech/), [FunFair](https://funfair.io/), and [SpankChain](https://spankchain.com/).
 
@@ -41,7 +41,7 @@ Essentially, transactions within a state channel are transactions which *could* 
 
 [Yall's](https://yalls.org/) is a blogging platform that allows writers to monetize their content without having to rely on a third party. Readers can make **micropayments** to gain access to the content incrementally, each payment gradually revealing more of the content should the reader decide that it's worth continuing. This sort of micropayment or "**money streaming**" use case would be slow and quickly accrue in transaction costs if it were conducted on the blockchain itself. Instead, payment channels enable this use case. Yall's is powered by [Lightning Network](http://lightning.network/), a payment channel network that runs on Bitcoin.
 
-![A blog post on Y'alls](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1539287544020-KPS2ONGVWAU9QKH646Q1/ke17ZwdGBToddI8pDm48kJrU3GQImEHj_lVRX6ng7zwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dluvbnoANZ6pVbbjPADt95KHcDJAillefKgYvhVlpaeRCjLISwBs8eEdxAxTptZAUg/Screen+Shot+2018-10-12+at+2.52.08+AM.png?format=1500w)
+![A blog post on Y'alls](/static/media/yalls.png)
 
 [A blog post on Y'alls](https://yalls.org/articles/97d67df1-d721-417d-a6c0-11d793739be9:0965AC5E-56CD-4870-9041-E69616660E6F/907bf246-3a65-4afb-99a6-3ddef4903b84)
 
@@ -79,7 +79,7 @@ Say Bob wants to enter a game of tic-tac-toe with Alice where the winner gets 1 
 
 📑There are two main pieces of logic at play here. The **game logic** (the rules of tic tac toe) and the **state channel logic**,a "judge" contractwhose purpose is to hold deposited funds in escrow and distribute winnings when the game is over. In this example, the gas fees are paid when Bob submits a game invitation to Alice, when they open the state channel, and when they close the state channel. **In-channel transactions that update the game state do not accrue on-chain gas fees**.
 
-![You can read the technical details for implementing this channelized tic tac toe game  here .](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1539274118079-D4ZXM0JFXQW3USNF5V12/ke17ZwdGBToddI8pDm48kCRW_o2yYO9yDV5YMBxwaq5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwLdWwZ9UiRIsoA8OqkjVC07qnALMfUR3kMuTOY-JOC--h6al3duDUrvd0en_pZvyw/Screen+Shot+2018-10-11+at+11.08.03+PM.png?format=1500w)
+![You can read the technical details for implementing this channelized tic tac toe game  here .](/static/media/state-channels-v1.png)
 
 You can read the technical details for implementing this channelized tic tac toe game [here](https://medium.com/statechannels/state-channel-applications-1f170e7d542e).
 
@@ -134,7 +134,7 @@ Counterfactual instantiation enables us to sign commitments in state channels **
 
 A depiction of what an Alice-Bob metachannel might look like:
 
-![Solid borders = on chain, Dotted borders = counterfactual objects  * Note that metachannels can have more than 2 participants. There can be an arbitrary number of participants, as long as the  set of participants are defined  when the multisignature wallet gets created.  My primary sources when making this illustration were Spankchain's generalized state channels  implementation  and  L4's paper  for generalized state channels.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1539317395938-GIZ0VU2EJEUK3VVD024T/ke17ZwdGBToddI8pDm48kIxLyQKNvCJV1VqlQdvRw1V7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm1FhocyD9gYphub6l63vn0CVBnqXSLUrwyXVsPf6Tc-QA9sAQ_wx2hqx-oBbvclHT/Screen+Shot+2018-10-12+at+11.09.06+AM.png?format=1500w)
+![Solid borders = on chain, Dotted borders = counterfactual objects  * Note that metachannels can have more than 2 participants. There can be an arbitrary number of participants, as long as the  set of participants are defined  when the multisignature wallet gets created.  My primary sources when making this illustration were Spankchain's generalized state channels  implementation  and  L4's paper  for generalized state channels.](/static/media/generalized-state-channels.png)
 
 Solid borders = on chain, Dotted borders = counterfactual objects
 

@@ -29,7 +29,7 @@ THE SCALABILITY TRILEMMA
 
 The trilemma claims that **blockchain systems can only at most have two of the following three properties**:
 
-![Decentralization  enables censorship-resistant, permissionless networks that allow anyone to partake in an ecosystem   Security  pertains to the immutability of the ledger and its general resistance to attacks such as 51% attacks, Sybil attacks, DDoS attacks etc.   Scalability  refers to the ability to process transactions on any given network. If blockchains can be mass-adopted, they have to be able to handle a scenario in which there are millions of users on the network.   Image source](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535375154912-2OM0ZRFGNQWXJUU7O1HO/ke17ZwdGBToddI8pDm48kMUxzv7_M1ZVUsnd-vKADv9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIoa9oNzemSanDGLitVFvOUczXiF6APZiwpdlNkvOMdJw/The-Blockchain-Trilemma.png?format=1500w)
+![Decentralization  enables censorship-resistant, permissionless networks that allow anyone to partake in an ecosystem   Security  pertains to the immutability of the ledger and its general resistance to attacks such as 51% attacks, Sybil attacks, DDoS attacks etc.   Scalability  refers to the ability to process transactions on any given network. If blockchains can be mass-adopted, they have to be able to handle a scenario in which there are millions of users on the network.   Image source](/static/media/blockchain-trilemma.png)
 
 **Decentralization** enables censorship-resistant, permissionless networks that allow anyone to partake in an ecosystem
 
@@ -41,7 +41,7 @@ The trilemma claims that **blockchain systems can only at most have two of the f
 
 This means that the layer 1 blockchains we know today that scores highly in more than one of the three aspects lie in the shaded area of one of these triangles:
 
-![Screen Shot 2018-08-27 at 8.25.11 PM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535376343582-8J1OH3BULT4IZ3FZK6W1/ke17ZwdGBToddI8pDm48kBcDQR0goWa5kxxu6stLlm8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcFjERPkS63zLQkBgyHmDB68ZyKy1Tzbt-gILDftktyd6_q7ObAt-yl1Ep_GOxnjjx/Screen+Shot+2018-08-27+at+8.25.11+PM.png?format=1500w)
+![Screen Shot 2018-08-27 at 8.25.11 PM.png](/static/media/trilemma-tradeoffs.png)
 
 For example, today Bitcoin and Ethereum are strong on the decentralization and security aspect at the expense of scalability, which without layer 2 technologies, puts them in the left triangle. There are arguments that Bitcoin is actually centralized due to the fact that the mining industry is disproportionately in the hands of a few pools or corporations, which is why I think it's worthwhile to add...
 
@@ -66,7 +66,7 @@ The canonical insight of Layer 2 solutions is that** once we obtain the hard ke
 
 **2-way peg protocols (2WP)** are protocols that allow cryptocurrencies to be "transferred" between the main chain (layer 1) to the secondary chain (layer 2). Under the hood, no cryptocurrency is *transferred* but instead temporarily locked on the main chain while the same amount of equivalent tokens are unlocked in the secondary chain. The original bitcoins can be unlocked when the equivalent amount of secondary-chain coins on the second blockchain are locked again in the secondary chain. [[7](https://www.rsk.co/blog/sidechains-drivechains-and-rsk-2-way-peg-design)]
 
-![Screen Shot 2018-08-28 at 2.15.59 AM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535397388430-S49VO2VVT87QATH8TQS7/ke17ZwdGBToddI8pDm48kBsCAwGcDGF_3Rq2lfuMMYQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcABU0DS31kBlzNmiVRJWkG2tOmhEjNycSZZckwYY4X4w5ReU-hQeDfZHA2r4dg2_x/Screen+Shot+2018-08-28+at+2.15.59+AM.png?format=1500w)
+![Screen Shot 2018-08-28 at 2.15.59 AM.png](/static/media/2-way-peg.png)
 
 Scalability solutions using secondary chains like [Plasma](https://plasma.io/), [Loom](https://loomx.io/), [Alpha](https://elementsproject.org/sidechains/alpha/), [Rootstock](https://rsk.co/) and [Liquid](https://blockstream.com/liquid/) derive from this general concept.
 
@@ -78,7 +78,7 @@ A federation is a group of notaries that serve as a middle layer between the mai
 
 In **multi-sig federations**, the notaries control a multi-signature address for which the majority of them has to approve the unlock of funds. Ideally, notaries should have good reputation and security, and are geographically and juridically dispersed. There should also not be too few or too many. While the selected members of the federation have much to lose (reputation-wise) by misbehaving, the major drawback still stands that you have to trust them to act responsibly.
 
-![Source](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535382319062-PQ3OAACB80PF4HZA40MF/ke17ZwdGBToddI8pDm48kIRzJPjFcS5_xgyAIS4oae9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpz6JZPaL9iAxwCa0hjlthz6xtAmYC-edpICSnmwJXLGqUvRtTzzyEOuqZYfS7pgdJ0/Screen+Shot+2018-08-27+at+10.04.18+PM.png?format=1500w)
+![Source](/static/media/multisig-federation.png)
 
 [Source](https://docs.rsk.co/Drivechains_Sidechains_and_Hybrid_2-way_peg_Designs_R9.pdf)
 
@@ -96,7 +96,7 @@ Alternatively, what if each blockchain can enforces the 2WP lock/release premise
 
 Most public blockchains operating under proof-of-work consensus do not achieve absolute settlement finality, only **probabilistic** [settlement finality](https://blog.ethereum.org/2016/05/09/on-settlement-finality/). This means that immutability is based on an economic model as opposed to cryptographic hardness. In other words, we consider a block to be 'final' and immutable when the incentives towards manipulating transactions is offset by the costs to do so. As more proof-of-work gets submitted, older blocks become more expensive to manipulate. After the cross-chain ("exit") transaction has been submitted, there is a challenge period where the consensus group can present a lower proof-of-work and expect anyone to contest it. After a number of block confirmations, if the submission goes uncontested, the exit transaction will be accepted on the main chain. See [Karl Floersch](https://twitter.com/karl_dot_tech)'s [great primer on the Plasma MVP](https://www.youtube.com/watch?v=jTc_2tyT_lY&feature=youtu.be) for a demonstration of this.
 
-![Source](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535382330676-ZHCGDVINMGJQ55NKMHNZ/ke17ZwdGBToddI8pDm48kGLYzBktpwxbtwSYMIuxWdlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwyKrxbRdDZfSs3Q1ySh_gpq8BQ-OXxGW7M57Zv3NujBchyZl5MjnK02IalkeMc4uk/sidechains.png?format=1500w)
+![Source](/static/media/spv-proofs-sidechain.png)
 
 [Source](https://docs.rsk.co/Drivechains_Sidechains_and_Hybrid_2-way_peg_Designs_R9.pdf)
 
@@ -104,7 +104,7 @@ Most public blockchains operating under proof-of-work consensus do not achieve a
 
 A [drivechain](http://www.drivechain.info/) gives custody of the locked coins to the **miners, allowing them to (algorithmically) vote on when to unlock coins and where to send them**. The miners vote using the main blockchain, and votes are cast in some part of the block. The greater the **participation of honest miners** in the drivechain, the more secure it is. Implementing drivechains on Bitcoin will **require a soft fork** for miners to validate new rules. [[4](http://www.drivechain.info/)] [[7](https://docs.rsk.co/Drivechains_Sidechains_and_Hybrid_2-way_peg_Designs_R9.pdf)]Projects: [Hivemind](http://bitcoinhivemind.com/), [BTC Codex](http://www.truthcoin.info/blog/codex-identity-sidechain/).
 
-![Source](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535382346115-R2BMX11BTXM11SMKN7LZ/ke17ZwdGBToddI8pDm48kJJaaOJ6GLNpN_RPB1vZDYBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyFD7vMe9Xvk_xhzyn6gQn7roMbju6QQi7mCPeuKXCLmWArBxxObHbkdlkEMZaq_B4/drivechains.png?format=1500w)
+![Source](/static/media/drivechains.png)
 
 [Source](https://docs.rsk.co/Drivechains_Sidechains_and_Hybrid_2-way_peg_Designs_R9.pdf)
 
@@ -115,7 +115,7 @@ ROOTSTOCK (RSK)
 
 The RSK 2-Way Peg is designed to be a hybrid between all three of the 2WP protocols discussed above. When moving to the RSK blockchain, it uses **SPV proofs** of locked BTC in order to unlock sBTC on the RSK blockchain. To move back to the main chain in the intermediate development stages of the network, the RSK-BTC peg utilize a **multi-sig federation/drivechain** hybrid where the multi signatures are held by a combination the federation and POW of the miners. The federation comprises of major exchanges around the world, each one holding a private key for a multi-sig for a two way peg. A security protocol ensures that the same Bitcoins cannot be unlocked on both blockchains at the same time. [6]
 
-![Screen Shot 2018-08-27 at 10.52.58 PM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535385217942-MBYH6S5R3XOINBL2JACQ/ke17ZwdGBToddI8pDm48kCAWXxfp7AmMz8O0IkB1SmlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzhRnvPQzJfNu3l9L_C-Mvgj3k71Nj4EIsT-MPv3bKT0pugj4DhdeMSeJv4DF5UYmc/Screen+Shot+2018-08-27+at+10.52.58+PM.png?format=1500w)
+![Screen Shot 2018-08-27 at 10.52.58 PM.png](/static/media/rootstock-hybrid.png)
 
 Over time, the Rootstock team plans to have have the peg gradually switch to drivechain model and rely less and less on the federation, incrementally moving control to the miners, as described [here](https://www.rsk.co/blog/sidechains-drivechains-and-rsk-2-way-peg-design) and in the official [FAQs. ](https://faq.rsk.co/en/main/)
 
@@ -196,7 +196,7 @@ So right now RSK's transaction throughput is claimed to be comparable to that of
 
 A **state channel** is a two-way transaction channel between two parties (e.g. between two users or between a user and a machine). The **transactions take place entirely off the blockchain** and **exclusively between the participants**, which means that in-channel transactions are not subject to fees and transaction fees are only charged to "open" and "close" the channel, settling final state changes on-chain. State channels are the more generalized form of payment channels. Implementations of state channels can vary - notable projects include [Lightning Network](http://lightning.network/), [Raiden](https://raiden.network/), [Trinity](https://trinity.tech/), and [SpankChain](https://spankchain.com/). [[17](https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707)][[18](https://hackernoon.com/10-state-channel-projects-every-blockchain-developer-should-know-about-293514a516fd)]
 
-![State channels make it more feasible to do  micropayments  or to 'stream' money. Transaction fees are only paid for state changes on-chain, which means that the channels enable us to do transactions like we would  on  the blockchain, but much faster and cheaper.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1535439253976-NCPEHGH5EAYZPF0AEIEF/ke17ZwdGBToddI8pDm48kCvZUIUGbgp-owh1dOM4C3QUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc20Bcgb-jjwcn_zdPboaVFp6f1QskwnL32AcuPxW969D2rpiF64EkuXdgLfCL99hX/Screen+Shot+2018-08-28+at+1.53.30+PM.png?format=1500w)
+![State channels make it more feasible to do  micropayments  or to 'stream' money. Transaction fees are only paid for state changes on-chain, which means that the channels enable us to do transactions like we would  on  the blockchain, but much faster and cheaper.](/static/media/state-channels.png)
 
 State channels make it more feasible to do **micropayments** or to 'stream' money. Transaction fees are only paid for state changes on-chain, which means that the channels enable us to do transactions like we would *on* the blockchain, but much faster and cheaper.
 

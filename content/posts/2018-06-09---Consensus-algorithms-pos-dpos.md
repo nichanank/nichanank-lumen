@@ -38,7 +38,7 @@ To motivate participants in the network to behave appropriately, there should be
 
 In blockchains, **code and economics are intrinsically interlinked.** When designing a consensus protocol, you want to align your cryptoeconomics such that **when an individual participant optimizes personal gain, they optimize the collective outcome of the system as well**.
 
-![Screen Shot 2018-06-07 at 1.18.06 AM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528309137678-V67UI8UDHAJPF2TX4WQ7/ke17ZwdGBToddI8pDm48kCdOoUJvxYMFV3sIHvdOyktZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxlRZpno1vYFFHDUr87UbG3LgZ-uC_3d3O8-KyRKbHcb5tNqM4ZVIB9hFS5ySjxLxI/Screen+Shot+2018-06-07+at+1.18.06+AM.png?format=1500w)
+![Screen Shot 2018-06-07 at 1.18.06 AM.png](/static/media/cryptoeconomics.png)
 
 In networks that utilize proof-of-work, miners use their hardware to solve a cryptographically hard problem for the chance to add a new block to the chain, aka a new entry in the ledger of transactions. The more computational power (**hashpower**) they have, the higher their chances of reaching the solution first. They spend electricity on this hashpower, but are incentivized to do so (correctly) because if they are successful in adding their block, they receive a block reward along with transaction fees. If they try to add an invalid block, they would have wasted electricity for nothing and thus are *de*centivized from doing so.
 
@@ -57,7 +57,7 @@ ORIGINS
 
 The **proof-of-stake** (PoS)protocol was [first suggested](https://bitcointalk.org/index.php?topic=27787.0) by a user called QuantumMechanic on the bitcointalk forum. Here, they actually outline the concept for proof-of-stake *and* **delegated** proof-of-stake, which we'll explore later on.
 
-![QuantumMechanic 's proposal for proof-of-stake on  Bitcointalk.org  - interestingly, they haven't posted anything since that week in 2011.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528309877184-KPGDZOVTD5U813NUSFRT/ke17ZwdGBToddI8pDm48kPKbN_9WeVJR0EZ1biH1RPEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnFJcDTDGZ50L62RYr7pXuldZvwyfu0y-s9xhl2TbNdwnkXMwkja41oVeLihScldSFg/Screen+Shot+2018-06-07+at+1.30.37+AM.png?format=1500w)
+![QuantumMechanic 's proposal for proof-of-stake on  Bitcointalk.org  - interestingly, they haven't posted anything since that week in 2011.](/static/media/pos-origins.png)
 
 [QuantumMechanic](https://bitcointalk.org/index.php?action=profile;u=241)'s proposal for proof-of-stake on [Bitcointalk.org](https://bitcointalk.org/) - interestingly, they haven't posted anything since that week in 2011.
 
@@ -69,7 +69,7 @@ The **proof-of-stake** (PoS)protocol was [first suggested](https://bitcointalk.o
 
 In a PoW-based network where miners are using their computational power to solve for a new block, it would make sense to spend all of your available computational power on mining **one** block at a time to maximize your chances of successfully finding the solution. If you try to mine multiple blocks at once (in order to reap rewards for all of them), you will have to split your hashpower amongst all of them, thus lowering your chances of finding the solution for any.
 
-![Competing chains may temporarily occur when two miners produce a new block at the same time (this is one of the ways in which a  fork  happens). An incentives diagram for splitting your hashpower during temporary forks, from  Ethereum's PoS FAQ .](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528378334054-ZYVUE66C6LSYA69ONMEV/ke17ZwdGBToddI8pDm48kG_p5ylGpjoCJ_9w6QdHSg1Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyLmup8UC_gMVkxcg9YBbVT5ThAOkHKdFBp4OxMb7Hzl4p2GFSl_UTdynqXnxGUqII/Screen+Shot+2018-06-07+at+8.32.02+PM.png?format=1500w)
+![Competing chains may temporarily occur when two miners produce a new block at the same time (this is one of the ways in which a  fork  happens). An incentives diagram for splitting your hashpower during temporary forks, from  Ethereum's PoS FAQ .](/static/media/pow-voting.png)
 
 Competing chains may temporarily occur when two miners produce a new block at the same time (this is one of the ways in which a **fork** happens). An incentives diagram for splitting your hashpower during temporary forks, from [Ethereum's PoS FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ).
 
@@ -79,7 +79,7 @@ In early implementations of proof-of-stake networks e.g. [Peercoin](https://peer
 
 This is where the -economics in cryptoeconomics come into play. We can introduce a **penalty** for adding to multiple chains...
 
-![An incentives diagram for voting on multiple chains on PoS, from  Ethereum's PoS FAQ . If you try adding blocks to both, you lose your stake. This creates a financial  de centive as long as the stake &gt; transaction fee rewards.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528380610822-O8N3WTS62BHQJ1WPG8T0/ke17ZwdGBToddI8pDm48kOzj3s0gKyEx_vuYgG2DbzxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx85-YGZwlTHmYZOBp__5aipBSoQgl_NX5HHeq8owqZRoq7DtkRf7DEDWbqIlfctkQ/Screen+Shot+2018-06-07+at+9.09.48+PM.png?format=1500w)
+![An incentives diagram for voting on multiple chains on PoS, from  Ethereum's PoS FAQ . If you try adding blocks to both, you lose your stake. This creates a financial  de centive as long as the stake &gt; transaction fee rewards.](/static/media/pos-voting-slashing.png)
 
 An incentives diagram for voting on multiple chains on PoS, from [Ethereum's PoS FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ). If you try adding blocks to both, you lose your stake. This creates a financial *de*centive as long as the stake > transaction fee rewards.
 
@@ -87,7 +87,7 @@ In this version of the proof-of-stake protocol, misbehaving nodes would lose som
 
 A summary:
 
-![Blocks are appended to the chain by  validators , who stake their funds for a chance of being selected to add the next block to the chain. Their voting power on the block that should be added is proportional to the funds they " stake " on the network.](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528472656954-1DNHK5PGWFP76SE6XD2N/ke17ZwdGBToddI8pDm48kCXvyNCQUTV_gvbUFcL1znwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcSjIfv_EKQFgw4zGC5_kdUIRB04GKubL9cdJD07R7JBBON4Hi10l4c0y4diBhGKu_/Screen+Shot+2018-06-08+at+10.43.52+PM.png?format=1500w)
+![Blocks are appended to the chain by  validators , who stake their funds for a chance of being selected to add the next block to the chain. Their voting power on the block that should be added is proportional to the funds they " stake " on the network.](/static/media/pos-summary.png)
 
 Blocks are appended to the chain by **validators**, who stake their funds for a chance of being selected to add the next block to the chain. Their voting power on the block that should be added is proportional to the funds they "**stake**" on the network.
 
@@ -114,7 +114,7 @@ Stakeholders (everyone who owns tokens) allocate their tokens to witnesses as th
 
 **Note: I'm using "tokens" and "funds" interchangeably here. "Stakeholders" and "participants" are also interchangeable.*
 
-![Screen Shot 2018-06-09 at 6.39.22 PM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528544417475-4Z1TW73W777AUFSJSHI7/ke17ZwdGBToddI8pDm48kAk2SCjLy-bpX-0_lSaXMcZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US4IaZwAVuw-pRwg_37ylS7vTsmM_wbPbAzYxxf6Y1Qy7zs2yPjc1ECvpa5Zm_kMqw/Screen+Shot+2018-06-09+at+6.39.22+PM.png?format=1500w)
+![Screen Shot 2018-06-09 at 6.39.22 PM.png](/static/media/dpos-summary.png)
 
 Ultimately, the witnesses should remain neutral and stakeholders are in control, as stakeholders lose the most when the network does not operate smoothly. Therefore, stakeholders can reassign their tokens to a different witness at any time. The bigger the network grows, the more competitive it will be to make it on the active witnesses list. Therefore, it is in the witness' best interest to be a valued member of the community to avoid getting replaced.
 
@@ -122,7 +122,7 @@ Ultimately, the witnesses should remain neutral and stakeholders are in control,
 
 In PoS, stakers are psuedorandomly assigned to create and add the next block - the probability of being assigned being proportional to their locked up funds. In DPoS however, **witnesses take turns** creating and adding new blocks. Because they are already reputable members of the community and were voted in by stakeholders, witnesses have an equal chance of being selected. If a witness misses a block (e.g. because their server went offline), it is passed to the next active witness. This process happens extremely quickly.
 
-![Screen Shot 2018-06-09 at 6.45.43 PM.png](https://images.squarespace-cdn.com/content/v1/55fb0ce3e4b0e3c27323dd7c/1528544795352-9O44FG8TZ8EQD7VK5LJM/ke17ZwdGBToddI8pDm48kO_QmtMDz5OcJUkKcpjpPU97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcT8LvYshmA-XcEcsCIJX6N3LYKqG8ZjCubvREttAwOIMW9u6oXQZQicHHG1WEE6fg/Screen+Shot+2018-06-09+at+6.45.43+PM.png?format=1500w)
+![Screen Shot 2018-06-09 at 6.45.43 PM.png](h/static/media/dpos-block-production.png)
 
 Since it is the witness' responsibility to validate transactions and produce blocks, it's important they have a stable server 24-7/365 and close to 100% up-time. The receive **transaction fees** or sometimes **block rewards** in return for their work. Witnesses can decide what they do with these rewards, whether it's redistributing their rewards as interest to their voters, funding marketing/development work in the ecosystem, or donate funds to charities. They can refine these plans with the community, and stakeholders can vote according to those they're happy with.
 
