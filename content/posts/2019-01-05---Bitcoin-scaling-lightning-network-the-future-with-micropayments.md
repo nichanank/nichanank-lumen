@@ -49,11 +49,11 @@ These building blocks allow parties to make transact many times without the majo
 ⚡️TRANSACTIONS ON LIGHTNING
 ---------------------------
 
-A quick overview of the steps involved in Lightning transactions. Let's imagine a situation in which Alice wants to send $5 to Bob - for simplicity we'll be talking in dollars instead of BTC.
+A quick overview of the steps involved in Lightning transactions. Let's imagine a situation in which Alice wants to send \$5 to Bob - for simplicity we'll be talking in dollars instead of BTC.
 
 ### **OPENING A CHANNEL**
 
-1.  Both parties deposit $10 to a 2-of-2 multisig address in an **opening transaction**,recorded on the blockchain. Funds can only be spent from this address if *both* Alice and Bob sign a subsequent transaction. Additionally, Alice and Bob each create a **secret** and exchange its hash.
+1.  Both parties deposit \$10 to a 2-of-2 multisig address in an **opening transaction**,recorded on the blockchain. Funds can only be spent from this address if *both* Alice and Bob sign a subsequent transaction. Additionally, Alice and Bob each create a **secret** and exchange its hash.
 
     Channel balances after initial deposit:
 
@@ -65,9 +65,9 @@ A quick overview of the steps involved in Lightning transactions. Let's imagine 
     💁🏻‍♀️Alice $10
     ```
 
-2.  Alice now immediately creates and signs a "**commitment transaction**", in which she sends $5 to herself and $15 to a second multisig address. Instead of broadcasting the transaction to the network, she gives it to Bob. This second multisig contains a **CSV lock**, which means it can only be unlocked by Bob after a predefined number of blocks have been mined -let's say 100. It can also be unlocked by Alice if she knows Bob's secret (which she doesn't - she only has the hash)
+2.  Alice now immediately creates and signs a "**commitment transaction**", in which she sends \$5 to herself and \$15 to a second multisig address. Instead of broadcasting the transaction to the network, she gives it to Bob. This second multisig contains a **CSV lock**, which means it can only be unlocked by Bob after a predefined number of blocks have been mined -let's say 100. It can also be unlocked by Alice if she knows Bob's secret (which she doesn't - she only has the hash)
 
-3.  Meanwhile, Bob does the same but mirrored. He creates a commitment transaction as well, in which he sends himself $15, and $5 to a new multisig address. Alice can unlock this address if she waits an additional 100 blocks, or Bob can unlock it with Alice using her secret. Bob signs this half, and gives it to Alice.
+3.  Meanwhile, Bob does the same but mirrored. He creates a commitment transaction as well, in which he sends himself \$15, and \$5 to a new multisig address. Alice can unlock this address if she waits an additional 100 blocks, or Bob can unlock it with Alice using her secret. Bob signs this half, and gives it to Alice.
 
     Balances after the commitment transaction:
 
@@ -81,13 +81,13 @@ A quick overview of the steps involved in Lightning transactions. Let's imagine 
 
 4.  After exchanging these "half-valid" commitment transactions and hashes of secrets, they *both* sign and broadcast the opening transaction. This transaction is recorded on the blockchain and officially opens the channel. This process takes ~10 minutes (the average time it takes for a new block to be added to the Bitcoin blockchain).
 
-At this point, both Alice and Bob could sign and broadcast the half-valid commitment transaction they got from the other. If Alice does, Bob gets $15 immediately. If Bob does, Alice gets $5 immediately. But whomever signs and broadcasts the transaction will have to wait 100 blocks to unlock the subsequent multisig address and claim the remaining funds.
+At this point, both Alice and Bob could sign and broadcast the half-valid commitment transaction they got from the other. If Alice does, Bob gets \$15 immediately. If Bob does, Alice gets \$5 immediately. But whomever signs and broadcasts the transaction will have to wait 100 blocks to unlock the subsequent multisig address and claim the remaining funds.
 
 ### **UPDATING A CHANNEL**
 
-After this initial transaction to open the channel, Alice and Bob can transact with each other instantly using the funds allocated. Instantaneous transactions are made by passing signed transactions back and forth, spending from the 2-of-2 ledger entry. Let's continue with a scenario where Bob wants to send Alice $2 back. They want to update the channel state, to make the balance reflect this:
+After this initial transaction to open the channel, Alice and Bob can transact with each other instantly using the funds allocated. Instantaneous transactions are made by passing signed transactions back and forth, spending from the 2-of-2 ledger entry. Let's continue with a scenario where Bob wants to send Alice \$2 back. They want to update the channel state, to make the balance reflect this:
 
-1.  Both create a **commitment transaction** in the same process described above. This time, Bob sends himself $13 and $7 to a new multisig while Alice sends herself $7 and $13 to a new multisig. These new multisig-addresses require **new secrets**: both Alice and Bob provide each other with new hashes, sign their new half valid commitment transaction, and give it to each other. They also hand each other their *previous* secrets used in the initial step.
+1.  Both create a **commitment transaction** in the same process described above. This time, Bob sends himself \$13 and \$7 to a new multisig while Alice sends herself \$7 and \$13 to a new multisig. These new multisig-addresses require **new secrets**: both Alice and Bob provide each other with new hashes, sign their new half valid commitment transaction, and give it to each other. They also hand each other their *previous* secrets used in the initial step.
 
     Balances after the latest commitment transaction:
 
@@ -101,7 +101,7 @@ After this initial transaction to open the channel, Alice and Bob can transact w
 
 2.  Here again, both Alice and Bob could sign and broadcast the latest "half valid" commitment transaction they just got. Their counterparts would get their latest reflected balance immediately, while the broadcaster would have to wait 100 blocks. As such, the channel is updated.
 
-If Bob were to broadcast the older commitment transaction in which he has $15, he would immediately $5 to Alice... and he would have to wait 100 blocks to claim his own $15. What's stopping him from doing this is the fact that Alice now knows his secret that's required to unlock the wallet, she could use this time to immediately claim her money as well as Bob's $15! The same is true the other way around. If Alice tries to sign and broadcast an old commitment transaction, Bob can claim all the money in the channel because he has Alice's secret.
+If Bob were to broadcast the older commitment transaction in which he has \$15, he would immediately \$5 to Alice... and he would have to wait 100 blocks to claim his own \$15. What's stopping him from doing this is the fact that Alice now knows his secret that's required to unlock the wallet, she could use this time to immediately claim her money as well as Bob's \$15! The same is true the other way around. If Alice tries to sign and broadcast an old commitment transaction, Bob can claim all the money in the channel because he has Alice's secret.
 
 The inclusion of the time-lock and secret therefore **incentivizes each party to play to play fair** and only ever sign/broadcast the **most recent** state of the channel.
 
@@ -111,10 +111,10 @@ If Alice and Bob cooperatively wish to close a payment channel, their funds can 
 
 To close the channel, Alice and Bob simply have to sign and broadcast new commitment transactions to update the latest balances as above. From this closing transaction, they send themselves their fair share of the channel total as reflected in most recent channel state. [5]
 
-🌐A **NETWORK** OF CHANNELS
+🌐 A **NETWORK** OF CHANNELS
 ---------------------------
 
-If Alice wanted to pay $5 to a third person Charlie, she and Charlie *could* open up a payment channel between them - BUT they don't actually have to if Bob and Charlie already have an open channel with each other. Alice could **route** the money to Charlie by sending $5 to Bob, then Bob can send $5 to Charlie.
+If Alice wanted to pay \$5 to a third person Charlie, she and Charlie *could* open up a payment channel between them - BUT they don't actually have to if Bob and Charlie already have an open channel with each other. Alice could **route** the money to Charlie by sending \$5 to Bob, then Bob can send 5 to Charlie.
 
 ```
 Alice routes $5 to Charlie through Bob
@@ -132,23 +132,23 @@ There are 2 issues that arise with this naive setup:
 
 -   What if Alice pays Bob and Bob pays Charlie, but Charlie claims she never received the money?
 
-Alice needs to **ensure** that she only pays Bob $5 *if* he also pays Charlie $5. This can be accomplished again with cryptography. When Alice wants to send Charlie money, she tells Charlie to create a secret and send her the hash, then exchange the original secret with Bob for $5.
+Alice needs to **ensure** that she only pays Bob \$5 *if* he also pays Charlie \$5. This can be accomplished again with cryptography. When Alice wants to send Charlie money, she tells Charlie to create a secret and send her the hash, then exchange the original secret with Bob for \$5.
 
-1.  Alice takes the hash from Charlie and tells Bob she will give him $5 if he provides her its corresponding secret that was created by Charlie.
+1.  Alice takes the hash from Charlie and tells Bob she will give him \$5 if he provides her its corresponding secret that was created by Charlie.
 
-2.  Bob turns to Charlie, gives Charlie $5 in return for the secret, then returns to Alice with the secret. Alice knows Bob must have gotten the secret from Charlie and therefore concludes that Charlie has got her $5. Alice can therefore confidently give Bob the money.
+2.  Bob turns to Charlie, gives Charlie \$5 in return for the secret, then returns to Alice with the secret. Alice knows Bob must have gotten the secret from Charlie and therefore concludes that Charlie has got her \$5. Alice can therefore confidently give Bob the money.
 
 However, this is still not the *trustless* setup we would like because middleman Bob still has to:
 
--   Trust Charlie to really give him the secret after he sent her $5
+-   Trust Charlie to really give him the secret after he sent her \$5
 
--   Trust Alice to really give him $5 once he presents her the secret
+-   Trust Alice to really give him \$5 once he presents her the secret
 
 ### IN ORDER FOR THESE INTERACTIONS TO BE TRUSTLESS, THE **MONEY-FOR-SECRET TRANSACTIONS MUST BE ABSOLUTELY GUARANTEED ALONG THE NETWORK**
 
-If Bob gives $5 to Charlie, he must be **guaranteed** to get $5 back from Alice. How can we ensure this? Again, this is where time-locks come in.
+If Bob gives \$5 to Charlie, he must be **guaranteed** to get \$5 back from Alice. How can we ensure this? Again, this is where time-locks come in.
 
-Rather than sending Bob $5 right away, Alice sends $5 to a **new** multisig address. The money locked up on this address can be unlocked in two different ways.
+Rather than sending Bob \$5 right away, Alice sends \$5 to a **new** multisig address. The money locked up on this address can be unlocked in two different ways.
 
 -   🖋Bob includes his signature and the secret
 
@@ -158,7 +158,7 @@ This **hashed timelock contract (**HTLC**)** ensures that Bob has a week to crea
 
 Meanwhile, Bob and Charlie has also established an HTLC. If Charlie claims her money from Bob, Bob will get the secret value in return and this will be visible on the blockchain.
 
-It is important to note that Bob needs to obtain the secret from Charlie *before* Alice can reclaim the $5 from Bob. If Bob gets the value from Charlie only after Alice already reclaimed hers back, Bob is stuck in the middle. The time-out in Bob and Charlie's HTLC must expire ***before*** the time-out in Alice and Bob's HTLC expires. This is why HTLCs need **CheckLockTimeVerify** (absolute) and not CheckSequenceVerify (relative).
+It is important to note that Bob needs to obtain the secret from Charlie *before* Alice can reclaim the \$5 from Bob. If Bob gets the value from Charlie only after Alice already reclaimed hers back, Bob is stuck in the middle. The time-out in Bob and Charlie's HTLC must expire ***before*** the time-out in Alice and Bob's HTLC expires. This is why HTLCs need **CheckLockTimeVerify** (absolute) and not CheckSequenceVerify (relative).
 
 Bob functions as a "node" on the Lightning network, which are somewhat analogous to [miners on Bitcoin](https://www.coindesk.com/laolu-building-watchtower-fight-bitcoin-lightning-fraud). Bitcoin miners function as servers that process the transactions on the network in a decentralized manner without having control over the funds they help move. Bob cannot steal Alice's funds, as he will only receive her incoming payment if he has already sent the outgoing payment to the Charlie.
 
@@ -177,7 +177,7 @@ An infographic illustrating how onion routing works. [Source](https://pbs.twimg
 ⚡️MICROPAYMENTS, REVISITED
 --------------------------
 
-One of the implications for a network of payment channels is that it allows us to do **micropayments** -- payments which are typically of sub-$10 in value transacted over the internet. With payment channels these micropayments can go down to [fractions of a cent](https://bitcoinmagazine.com/articles/sold-lightning-network-art-auction-goes-lowest-bidder/). Though prototype iterations of micropayment systems have been around since the mid-90s, their viability has been limited due to the technical hurdles that had to be overcome, major issues pertaining to:
+One of the implications for a network of payment channels is that it allows us to do **micropayments** -- payments which are typically of sub-\$10 in value transacted over the internet. With payment channels these micropayments can go down to [fractions of a cent](https://bitcoinmagazine.com/articles/sold-lightning-network-art-auction-goes-lowest-bidder/). Though prototype iterations of micropayment systems have been around since the mid-90s, their viability has been limited due to the technical hurdles that had to be overcome, major issues pertaining to:
 
 -   **Security**: failure of the underlying software or hardware would drastically decrease trust in the system.
 
@@ -200,7 +200,7 @@ Everyday transactions on Lightning are currently being conducted by those with m
 
 -   **📶Pay-as-you-go resources**
 
-    -   How many times have you paid in bulk for an hour of metered street parking when you only need 20 minutes? Or paid a lump sum for 24 hours of internet for when you only need to do a few hours of work there? With micropayments, it becomes feasible for you to "stream" payments to Boingo for wifi or the city for your parking, accruing sums like $2.04 in costs instead of a pre-determined lump sum for an arbitrary period of use. 
+    -   How many times have you paid in bulk for an hour of metered street parking when you only need 20 minutes? Or paid a lump sum for 24 hours of internet for when you only need to do a few hours of work there? With micropayments, it becomes feasible for you to "stream" payments to Boingo for wifi or the city for your parking, accruing sums like \$2.04 in costs instead of a pre-determined lump sum for an arbitrary period of use. 
 
 -   **📨Pay-as-you-go services**
 

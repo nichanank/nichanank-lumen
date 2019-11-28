@@ -42,9 +42,9 @@ A **transaction** contains inputs and outputs:
 
 -   Outputs will be *unspent* (i.e. still **spendable**) until they are used in a new transaction
 
-![The wallet software automatically aggregates various txn inputs that add up to construct the desired output amount. For example, if you have been sent $5, $2, and $10 on separate occasions, the wallet will decide how to best use these  unspent  input to construct an outgoing transaction worth $15.  Image source:  Bitcoin whitepaper](/static/media/transaction-utxo.png)
+![](/static/media/transaction-utxo.png)
 
-The wallet software automatically aggregates various txn inputs that add up to construct the desired output amount. For example, if you have been sent $5, $2, and $10 on separate occasions, the wallet will decide how to best use these *unspent* input to construct an outgoing transaction worth $15.
+The wallet software automatically aggregates various txn inputs that add up to construct the desired output amount. For example, if you have been sent \$5, \$2, and \$10 on separate occasions, the wallet will decide how to best use these *unspent* input to construct an outgoing transaction worth \$15.
 
 Image source: [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
@@ -88,7 +88,7 @@ To understand how privacy is achieved on MimbleWimble, we take a look at **confi
 
 [**Confidential transactions**](https://people.xiph.org/~greg/confidential_values.txt) allow you to encrypt transaction values and cryptographically verify that the outputs and inputs add up to zero *without* having to know the amounts itself. Verifiers only care about whether the sum going in equals the funds going out. They can do so without knowing the specific values involved using something called **Pedersen commitments**. [4]
 
-[**CoinJoin**](https://en.bitcoin.it/wiki/CoinJoin)is a [scheme proposed](https://bitcointalk.org/index.php?topic=279249.0) by Gregory Maxwell. This technique allows us to join multiple transaction inputs together and route the appropriate values to their destinations without knowing exactly who paid whom how much. This protocol involves *N* users agreeing on a uniform output size and provide inputs amounting to that size. The users then all sign the transaction, which then could be transmitted. [16']
+[**CoinJoin**](https://en.bitcoin.it/wiki/CoinJoin) is a [scheme proposed](https://bitcointalk.org/index.php?topic=279249.0) by Gregory Maxwell. This technique allows us to join multiple transaction inputs together and route the appropriate values to their destinations without knowing exactly who paid whom how much. This protocol involves *N* users agreeing on a uniform output size and provide inputs amounting to that size. The users then all sign the transaction, which then could be transmitted. [16]
 
 ![This coinjoin implementation is  interactive  as everybody who is transacting has to consent to it as per the protocol. If Alice wanted to make a coinjoin payment, she can find someone else who also wants to make a payment (e.g. Bob) and they can make a joint payment together. Externally, it is unclear who paid Ted and who paid Carol.   Image source](/static/media/coinjoin.png)
 
