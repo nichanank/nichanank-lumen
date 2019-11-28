@@ -9,7 +9,7 @@ tags:
   - "Blockchain"
   - "Bitcoin"
 description: "Our bitcoin transaction ledger now contains 512200+ (at the time of writing) immutable pages of history detailing nothing except who sent how much BTC to whom...
-But what exactly happens during each transaction? What are public and private keys and why is it such a big deal to keep the latter a secret? What's in a wallet? What does it mean to verify or *sign* a message in this context? In this post I will walk through what happens when you send and receive bitcoin and what it means to *own* cryptocurrencies."
+But what exactly happens during each transaction? What are public and private keys and why is it such a big deal to keep the latter a secret? What's in a wallet? What does it mean to verify or *sign* a message in this context? In this article we'll walk through what happens when you send and receive bitcoin, and what it means to truly *own* cryptocurrencies."
 socialImage: "/media/image-2.jpg"
 ---
 

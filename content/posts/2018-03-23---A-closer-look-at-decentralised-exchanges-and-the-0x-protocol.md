@@ -8,7 +8,7 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Decentralized Exchanges"
-description: "The blockchain is often heralded as a technology that removes the need for trust. Yet hundreds of thousands, if not the majority of cryptocurrency traders today still need to place so much trust in exchanges to operate in a responsible, secure manner. For my first post that dives into a specific use case of the blockchain, I'm excited to be writing about decentralised exchanges addressing these problems, and the projects currently being implemented. I'll do a quick overview of centralised/decentralised exchanges and then dive into the 0x project - a decentralised exchange protocol that will serve as the public dex infrastructure."
+description: "The blockchain is often heralded as a technology that removes the need for trust. Yet the majority of cryptocurrency traders today still need to place so much trust in exchanges to operate in a responsible, secure manner. This article explores decentralised exchanges and dex protocol projects. We examine the core differences between centralised and decentralised exchanges then dive into the 0x project - a decentralised exchange protocol that serves as a public dex infrastructure."
 socialImage: "/media/image-2.jpg"
 ---
 

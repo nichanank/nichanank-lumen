@@ -8,7 +8,7 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Scalability"
-description: "As a follow on to my previous post on scalability and sidechains I thought it would make sense to give state channels a closer look. This article introduces some core ideas and features of state channels, explores current techniques for generalized state channels, and current challenges and limitations. By the end, you’ll hopefully have a better understanding of state channels and the implications of having a generalized framework for them."
+description: "As a follow on to my previous post on scalability and sidechains, this article introduces some core ideas and features of state channels. We explore techniques for generalized state channels, and current challenges and limitations. By the end, you’ll hopefully have a better understanding of state channels and the implications of having a generalized framework for them."
 socialImage: "/media/image-2.jpg"
 ---
 

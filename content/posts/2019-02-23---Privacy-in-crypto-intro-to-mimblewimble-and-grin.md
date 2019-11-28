@@ -8,7 +8,7 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Privacy"
-description: "In late 2016, a pseudonymous character named Tom Elvis Jedusor showed up on the bitcoin developers’ chatroom and posted a tor link, which hosted a single file named MIMBLEWIMBLE, outlining a new design for a privacy-preserving, massively prunable blockchain. Tom Elvis Jedusor, as some may recognize, is the name of Voldemort’s given name in the French Harry Potter books. Tom Elvis Jedusor to this date has never logged into the chatroom again. In this article I explore how MimbleWimble works, the first live implementation of the protocol, and privacy in crypto."
+description: "In late 2016, a pseudonymous character named Tom Elvis Jedusor showed up on the bitcoin developers’ chatroom and posted a tor link, which hosted a single file named MIMBLEWIMBLE, outlining a new design for a privacy-preserving, massively prunable blockchain. In this article I explore how MimbleWimble works, the first live implementation of the protocol, and privacy in crypto."
 socialImage: "/media/image-2.jpg"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Programming"
   - "Ruby on Rails"
   - "Music"
-description: "I went to bed with a half-finished post on record collecting and thought it would be nice if somehow, non-collectors can explore someone's collection in a simple, interactive way. While Discogs is packed with information about each release, there isn't a way for someone to peruse the records without being bombarded with details they might not care about. In addition, there may be some records that collectors forgot they even had or have not listened to in a while. Though the tactility of crate digging is part of the allure to vinyl in the first place, I thought it'd be fun to also have a tool to pick something for you at random. So I decided to do something about it."
+description: "Building a small, fun way to explore a record collection using Discogs API"
 socialImage: "/media/image-2.jpg"
 ---
 

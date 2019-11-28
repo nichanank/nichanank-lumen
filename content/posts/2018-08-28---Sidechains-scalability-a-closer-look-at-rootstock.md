@@ -9,8 +9,8 @@ tags:
   - "Blockchain"
   - "Scalability"
   - "Rootstock"
-description: "Second-layer (L2) solutions like Plasma, Raiden, Lightning, TrueBit and RSK are exploring structures that anchor to a main blockchain as a root of trust, with scalability features implemented in higher layer(s). While many L2 solutions are building on a newer blockchain, what can we do to improve the scalability and programmability of bitcoin itself?
-In this post I will be exploring how we may leverage the decentralization and security of the Bitcoin network to run decentralized applications at scale, and dive into the Rootstock project which is tackling this very problem. "
+description: "Layer 2 scaling solutions like Plasma, Raiden, Lightning, TrueBit and RSK are exploring structures that anchor to a main blockchain as a root of trust, with scalability features implemented in higher layer(s). While many L2 solutions are building on a newer blockchain, what can we do to improve the scalability and programmability of bitcoin itself?
+In this post we'll explore how we might leverage the decentralization and security of the Bitcoin network to run decentralized applications at scale, and dive into the Rootstock project which is tackling this very problem."
 socialImage: "/media/image-2.jpg"
 ---
 

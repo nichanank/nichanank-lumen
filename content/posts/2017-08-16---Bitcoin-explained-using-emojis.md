@@ -8,8 +8,7 @@ category: "Technology"
 tags:
   - "Blockchain"
   - "Bitcoin"
-description: "I first came across Bitcoin a few years ago as it gained wider traction across online forums and social media. Initially, I dismissed it as a form of digital money that ran on the same technology on which our traditional online banking systems rely.
-I eventually gave in to an ever-increasing sense of FOMO as Bitcoin became enthusiastically discussed amongst friends and colleagues, as well as on my favourite podcasts. I decided to do my own research on the topic, making an effort to understand its fundamentals and why it has a potential to affect billions of lives. As a result..."
+description: "Not another Bitcoin 101 post! At least there are plenty of emojis to go around."
 socialImage: "/media/image-2.jpg"
 ---
 
