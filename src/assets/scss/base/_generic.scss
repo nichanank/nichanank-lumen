@@ -1,6 +1,11 @@
 /** 
  * Generic
  */
+
+* {
+  background: $color-dark-gray;
+}
+
 html {
   font-size: $typographic-root-font-size;
 }
