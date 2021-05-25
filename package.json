@@ -98,7 +98,7 @@
     "babel-eslint": "10.0.3",
     "babel-jest": "24.9.0",
     "babel-preset-gatsby": "0.2.20",
-    "browserslist": "4.7.1",
+    "browserslist": "4.16.5",
     "concurrently": "5.0.0",
     "env-cmd": "^10.0.1",
     "eslint": "6.5.1",
